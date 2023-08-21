@@ -11,6 +11,7 @@
     "@ckeditor/ckeditor5-build-classic": "^39.0.1",
     "@ckeditor/ckeditor5-vue2": "^3.0.1",
     "ecored-base-pkg": "6.0.1",
+    "highlight.js": "^11.8.0",
     "prismjs": "^1.29.0",
     "vue": "^2.6.14",
     "vue-prism-component": "^2.0.0",

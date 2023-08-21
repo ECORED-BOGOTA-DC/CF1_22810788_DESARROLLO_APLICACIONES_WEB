@@ -29,19 +29,18 @@
         .p-4
           .row.justify-content-center
             .col-lg-6
-              div
-                pre
-                  code.language-html
-                    | &lt;! DOCTYPE html&gt;
-                    | &lt;html&gt;
-                    |   &lt;head&gt;
-                    |   &lt;/head&gt;
-                    |   &lt;body&gt;
-                    |     &lt;script type="text/JavaScript"&gt;
-                    |       document.write&lpar;"hola mundo"&rpar;;
-                    |     &lt;/script&gt;
-                    |   &lt;/body&gt;
-                    | &lt;/html&gt;
+              pre
+                code.language-html
+                  | &lt;! DOCTYPE html&gt;
+                  | &lt;html&gt;
+                  |   &lt;head&gt;
+                  |   &lt;/head&gt;
+                  |   &lt;body&gt;
+                  |     &lt;script type="text/JavaScript"&gt;
+                  |       document.write&lpar;"hola mundo"&rpar;;
+                  |     &lt;/script&gt;
+                  |   &lt;/body&gt;
+                  | &lt;/html&gt;
               p #[b Nota]. SENA (2022)
     p.mb-5 Se debe seguir las siguientes instrucciones:
     .tarjeta.tarjeta--gris.p-4.mb-5
@@ -121,14 +120,13 @@
         .p-4
           .row.justify-content-center
             .col-lg-6
-              div
-                pre
-                  code.language-javascript
-                    |6  var identificador;
-                    |7  var identificador2 = "value";
-                    |8  var nombre1 = "Juan";
-                    |9  var edad = 123;
-                    |10 var casado = true;
+              pre
+                code.language-javascript
+                  |6  var identificador;
+                  |7  var identificador2 = "value";
+                  |8  var nombre1 = "Juan";
+                  |9  var edad = 123;
+                  |10 var casado = true;
               p #[b Nota]. SENA (2022)
     p.mb-5 Los datos de una variable pueden estar quemados en el código fuente tal como los expuestos en la figura 6, o se pueden recibir de la interacción con el usuario por medio de elementos de control de entrada, como la figura 7.
     .titulo-sexto.color-acento-contenido.mb-4
@@ -138,24 +136,23 @@
         .p-4
           .row.justify-content-center
             .col-lg-6
-              div
-                pre
-                  code.language-html
-                    | &lt;! DOCTYPE html&gt;
-                    | &lt;html&gt;
-                    |   &lt;head&gt;
-                    |   &lt;/head&gt;
-                    |   &lt;body&gt;
-                    |     &lt;script type="text/JavaScript"&gt;
-                    |       Let nombre = prompt&lpar;"ingrese nombre: ", ""&rpar;;
-                    |       Let edad = prompt&lpar;"ingrese edad: ", ""&rpar;;
-                    |       document.write&lpar;"hola "&rpar;;
-                    |       document.write&lpar;nombre&rpar;;
-                    |       document.write&lpar;" , wow tienes "&rpar;;
-                    |       document.write&lpar;edad + " años"&rpar;;
-                    |     &lt;/script&gt;
-                    |   &lt;/body&gt;
-                    | &lt;/html&gt;
+              pre
+                code.language-html
+                  | &lt;! DOCTYPE html&gt;
+                  | &lt;html&gt;
+                  |   &lt;head&gt;
+                  |   &lt;/head&gt;
+                  |   &lt;body&gt;
+                  |     &lt;script type="text/JavaScript"&gt;
+                  |       Let nombre = prompt&lpar;"ingrese nombre: ", ""&rpar;;
+                  |       Let edad = prompt&lpar;"ingrese edad: ", ""&rpar;;
+                  |       document.write&lpar;"hola "&rpar;;
+                  |       document.write&lpar;nombre&rpar;;
+                  |       document.write&lpar;" , wow tienes "&rpar;;
+                  |       document.write&lpar;edad + " años"&rpar;;
+                  |     &lt;/script&gt;
+                  |   &lt;/body&gt;
+                  | &lt;/html&gt;
               p #[b Nota]. SENA (2022)
     p.mb-5 En JavaScript existen diferentes tipos de datos tal como se enseña a continuación:
     .row.justify-content-center.mb-5
@@ -233,21 +230,20 @@
         .p-4
           .row.align-items-center
             .col-lg-6.mb-4.mb-lg-0
-              div
-                pre
-                  code.language-html
-                    |1  &lt;! DOCTYPE html&gt;
-                    |2  &lt;html&gt;
-                    |3    &lt;head&gt;
-                    |4    &lt;/head&gt;
-                    |5    &lt;body&gt;
-                    |6      &lt;script type="text/JavaScript"&gt;
-                    |7        Let primerNombre =  "juan" ;
-                    |8        primernombre = "Alex";
-                    |9        Let cantidadNiños = 13;
-                    |10     &lt;/script&gt;
-                    |11   &lt;/body&gt;
-                    |12 &lt;/html&gt;
+              pre
+                code.language-html
+                  |1  &lt;! DOCTYPE html&gt;
+                  |2  &lt;html&gt;
+                  |3    &lt;head&gt;
+                  |4    &lt;/head&gt;
+                  |5    &lt;body&gt;
+                  |6      &lt;script type="text/JavaScript"&gt;
+                  |7        Let primerNombre =  "juan" ;
+                  |8        primernombre = "Alex";
+                  |9        Let cantidadNiños = 13;
+                  |10     &lt;/script&gt;
+                  |11   &lt;/body&gt;
+                  |12 &lt;/html&gt;
               p.mb-0 #[b Nota]. SENA (2022)
             .col-lg-6
               p.mb-0 En la figura, se puede observar que en la línea 7 y 8, al definir el identificador #[b primerNombre] y #[b primernombre], respectivamente, hacer referencia al mismo espacio en memoria, por lo cual, al ser un lenguaje con case-sensitive, inicialmente el identificador tendrá el valor de ‘Juan’ y luego será remplazado por ‘Alex’; ahora en la línea 9 se puede observar que la variable definida como #[b cantidadNiños], es incorrecta dado que utiliza un carácter especial perteneciente al lenguaje español que es la ‘ñ’, esta variable deberá ser renombrada de otra forma y por último se puede observar que las líneas 7, 8 y 9, que se finaliza con ‘;’ recordando que no es una norma del lenguaje, pero es una recomendación de buena práctica.
@@ -267,26 +263,25 @@
         .p-4
           .row.justify-content-center
             .col-lg-auto
-              div
-                pre
-                  code.language-html
-                    | &lt;! DOCTYPE html&gt;
-                    | &lt;html&gt;
-                    |   &lt;head&gt;
-                    |   &lt;/head&gt;
-                    |   &lt;body&gt;
-                    |     &lt;script type="text/JavaScript"&gt;
-                    |       // un comentario de una línea
-                    |       
-                    |       /*
-                    |       este es un comentario
-                    |       más largo, de varias líneas
-                    |       */
-                    |       
-                    |       /* Sin embargo, no puedes /* anidar comentarios */  SyntaxError  * /;
-                    |     &lt;/script&gt;
-                    |   &lt;/body&gt;
-                    | &lt;/html&gt;
+              pre
+                code.language-html
+                  | &lt;! DOCTYPE html&gt;
+                  | &lt;html&gt;
+                  |   &lt;head&gt;
+                  |   &lt;/head&gt;
+                  |   &lt;body&gt;
+                  |     &lt;script type="text/JavaScript"&gt;
+                  |       // un comentario de una línea
+                  |       
+                  |       /*
+                  |       este es un comentario
+                  |       más largo, de varias líneas
+                  |       */
+                  |       
+                  |       /* Sin embargo, no puedes /* anidar comentarios */  SyntaxError  * /;
+                  |     &lt;/script&gt;
+                  |   &lt;/body&gt;
+                  | &lt;/html&gt;
               p #[b Nota]. SENA (2022)
     p En la figura 9, se puede observar que hay varias formas de crear comentarios, si se requiere un comentario de una sola línea solo con iniciar la sentencia con // será suficiente, pero dado el caso que se requiera que sea un párrafo o más de una línea deberá iniciarse así /* y cerrarse de la siguiente manera */. Adicional a eso recordar que no se pueden anidar comentarios.
     p.mb-0 Los conceptos básicos del lenguaje abarcan otros temas, los cuales se irán abarcando en el desarrollo de este componente.
@@ -316,14 +311,13 @@
             .p-4
               .row.justify-content-center
                 .col-lg-auto
-                  div
-                    pre
-                      code.language-javascript
-                        | var suma = 1 + 2;
-                        | var nota1 =  1;
-                        | var nota2 =  4;
-                        | var nota3 = nota1 + 1;
-                        | var promedio = (nota1 + nota2 + nota3) / 3
+                  pre
+                    code.language-javascript
+                      | var suma = 1 + 2;
+                      | var nota1 =  1;
+                      | var nota2 =  4;
+                      | var nota3 = nota1 + 1;
+                      | var promedio = (nota1 + nota2 + nota3) / 3
                   p #[b Nota]. SENA (2022)
     .row.bg-c5.mb-5
       .col-12
@@ -354,12 +348,11 @@
         .p-4
           .row.justify-content-center
             .col-lg-auto
-              div
-                pre
-                  code.language-javascript
-                    | var var1 = 3;
-                    | var var2 = 4;
-                    | var result = var1 == var2;
+              pre
+                code.language-javascript
+                  | var var1 = 3;
+                  | var var2 = 4;
+                  | var result = var1 == var2;
               p #[b Nota]. SENA (2022)
     p.mb-5 En la figura 11 se puede observar la creación de dos identificadores de memoria var1 y var2, los cuales tienen una asignación de valor respectivamente, posteriormente se crea un identificador denominado result, este almacena el valor de comparar si var1 es igual a var2, el cual es falso; por lo tanto, el valor de result es el valor de ‘false’, se puede observar así:
     .row.mb-5
@@ -492,16 +485,15 @@
         .p-4
           .row.justify-content-center
             .col-lg-auto
-              div
-                pre
-                  code.language-javascript
-                    | var var1 = 3;
-                    | var var2 = 4;
-                    | var r1 = var1 + 3; // 6
-                    | var r2 = 5 - 4; //
-                    | var r3 = 3 * var2;
-                    | var r4 = var2 / 2; // 2
-                    | var r5 = 12 % 2; // 0
+              pre
+                code.language-javascript
+                  | var var1 = 3;
+                  | var var2 = 4;
+                  | var r1 = var1 + 3; // 6
+                  | var r2 = 5 - 4; //
+                  | var r3 = 3 * var2;
+                  | var r4 = var2 / 2; // 2
+                  | var r5 = 12 % 2; // 0
               p #[b Nota]. SENA (2022)
     p.mb-5 Además, se debe observar la siguiente tabla:
     .tabla-a.color-acento-contenido.mb-5 
@@ -559,38 +551,35 @@
       .py-3.py-md-4(titulo="Ejemplo de operador && (y)")
         .row.justify-content-center
           .col-auto
-            div
-              pre
-                code.language-javascript
-                  | var a1 = true &amp;&amp; true;      // t &amp;&amp; t devuelve true
-                  | var a2 = true &amp;&amp; false;     // t &amp;&amp; f devuelve false
-                  | var a3 = false &amp;&amp; true;     // f &amp;&amp; t devuelve false
-                  | var a4 = false &amp;&amp; (3 == 4); // f &amp;&amp; f devuelve false
-                  | var a5 = 'Cat' &amp;&amp; 'Dog';    // t &amp;&amp; t devuelve Dog
-                  | var a6 = false &amp;&amp; 'Cat';    // f &amp;&amp; t devuelve false
-                  | var a7 = 'Cat' &amp;&amp; false;    // t &amp;&amp; f devuelve false
+            pre
+              code.language-javascript
+                | var a1 = true &amp;&amp; true;      // t &amp;&amp; t devuelve true
+                | var a2 = true &amp;&amp; false;     // t &amp;&amp; f devuelve false
+                | var a3 = false &amp;&amp; true;     // f &amp;&amp; t devuelve false
+                | var a4 = false &amp;&amp; (3 == 4); // f &amp;&amp; f devuelve false
+                | var a5 = 'Cat' &amp;&amp; 'Dog';    // t &amp;&amp; t devuelve Dog
+                | var a6 = false &amp;&amp; 'Cat';    // f &amp;&amp; t devuelve false
+                | var a7 = 'Cat' &amp;&amp; false;    // t &amp;&amp; f devuelve false
       .py-3.py-md-4(titulo="Ejemplo de operador || (o)")
         .row.justify-content-center
           .col-auto
-            div
-              pre
-                code.language-javascript
-                  | var o1 = true || true;      // t || t devuelve true
-                  | var o2 = false || true;     // f || t devuelve true
-                  | var o3 = true || false;     // t || f devuelve true
-                  | var o4 = false || (3 == 4); // f || f devuelve false
-                  | var o5 = 'Cat' || 'Dog';    // t || t devuelve Cat
-                  | var o6 = false || 'Cat';    // f || t devuelve Cat
-                  | var o7 = 'Cat' || false;    // t || f devuelve Cat
+            pre
+              code.language-javascript
+                | var o1 = true || true;      // t || t devuelve true
+                | var o2 = false || true;     // f || t devuelve true
+                | var o3 = true || false;     // t || f devuelve true
+                | var o4 = false || (3 == 4); // f || f devuelve false
+                | var o5 = 'Cat' || 'Dog';    // t || t devuelve Cat
+                | var o6 = false || 'Cat';    // f || t devuelve Cat
+                | var o7 = 'Cat' || false;    // t || f devuelve Cat
       .py-3.py-md-4(titulo="Ejemplo de operador ¡ (negación)")
         .row.justify-content-center
           .col-auto
-            div
-              pre
-                code.language-javascript
-                  | var n1 = !true;      // t devuelve false
-                  | var n2 = !false;     // f devuelve true
-                  | var n3 = !'Cat';     // t devuelve false
+            pre
+              code.language-javascript
+                | var n1 = !true;      // t devuelve false
+                | var n2 = !false;     // f devuelve true
+                | var n3 = !'Cat';     // t devuelve false
     p.mb-5 Para completar la información anterior revisar en detalle los datos que se presentan entre operador, uso y la descripción de cada uno de los que se relacionan.
     .tabla-a.color-acento-contenido.mb-5 
       table
@@ -637,7 +626,7 @@
 </template>
 
 <script>
-import 'prismjs/prism'
+import Prism from 'prismjs'
 import 'prismjs/themes/prism.css'
 export default {
   name: 'Tema1',
@@ -648,6 +637,9 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
   updated() {
     this.$aosRefresh()
