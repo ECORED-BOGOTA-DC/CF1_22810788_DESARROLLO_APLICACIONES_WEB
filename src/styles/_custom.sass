@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 70%
+    right: 60%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 20%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 0%
 
 @keyframes float1
   0%
@@ -17,3 +21,87 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__info
+  @media screen and ( max-width: $bp-max-lg )
+    h1, p
+      color: white
+      filter: drop-shadow(.05em .05em grey)
+      mix-blend-mode: difference
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.tarjeta--gris
+  background-color: #ECFDFE
+
+.tarjeta.tarjeta-slide
+  height: 500px
+
+.tarjeta.color-acento-botones
+  background-color: #FFE2E7
+
+.tabs-a__tab
+  background-color: #C8F7FB
+
+.cajon.color-primario
+  background-color: #F6DCE0
+.cajon.color-primario:before
+  background-color: #FB405F
+
+.cajon.color-secundario
+  background-color: #DBFAFC
+.cajon.color-secundario:before
+  background-color: #4BE5F1
+
+.tabs-c
+  border-bottom: 0px
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+  &-c2
+    background-color: #F3F9FF
+  &-c3
+    background-color: #f5f2f0
+  &-c4
+    background-color: #4BE5F1
+    border-top-right-radius: 35px
+    border-bottom-right-radius: 35px
+  &-c5
+    background-image: url(../assets/curso/tema1/img8.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c6
+    background-color: white
+    border-top-left-radius: 25px
+    border-top-right-radius: 25px
+  &-c7
+    background-color: white
+    border-top: 1px solid #FB405F
+    border-bottom: 1px solid #FB405F
+  &-c8
+    background-color: white
+    border-bottom-left-radius: 25px
+    border-bottom-right-radius: 25px
+  &-c9
+    border-bottom: 1px solid #FB405F
+  &-c10
+    background-color: white
+    border-radius: 25px
+  &-c11
+    background-color: #FFF8DA
+
+.txt
+  &-c1
+    color: #07a
+  &-c2
+    color: #FFDA47
+  &-c3
+    color: #FB405F !important
+  &-c4
+    color: #451484 !important

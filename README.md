@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Fundamentos de JavaScript**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF1_22810788_DESARROLLO_APLICACIONES_WEB/](https://ecored-bogota-dc.github.io/CF1_22810788_DESARROLLO_APLICACIONES_WEB/)
 
 #
 
