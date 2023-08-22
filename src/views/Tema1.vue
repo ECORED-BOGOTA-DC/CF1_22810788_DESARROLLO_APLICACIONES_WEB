@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Fundamentos de JavaScript
@@ -20,12 +20,12 @@
     #t_1_1
     .titulo-segundo.color-acento-botones
       h2 1.1. Sintaxis y variables
-    p JavaScript es un lenguaje no tipado orientado a prototipos, por lo cual su sintaxis es relativamente sencilla, que por lo general es funcional.
-    p.mb-5 Para poder ejecutar algún algoritmo o funcionalidad en JavaScript será necesario utilizar un documento HTML que se renderice en el navegador tal como se especifica en la figura 1.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p(data-aos="fade-right") JavaScript es un lenguaje no tipado orientado a prototipos, por lo cual su sintaxis es relativamente sencilla, que por lo general es funcional.
+    p.mb-5(data-aos="fade-right") Para poder ejecutar algún algoritmo o funcionalidad en JavaScript será necesario utilizar un documento HTML que se renderice en el navegador tal como se especifica en la figura 1.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 1]. Documento html con script de JavaScript
     .row.mb-5
-      .col-12.bg-c2
+      .col-12.bg-c2(data-aos="fade-left")
         .p-4
           .row.justify-content-center
             .col-lg-6
@@ -41,9 +41,8 @@
                   |     &lt;/script&gt;
                   |   &lt;/body&gt;
                   | &lt;/html&gt;
-              p #[b Nota]. SENA (2022)
-    p.mb-5 Se debe seguir las siguientes instrucciones:
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    p.mb-5(data-aos="fade-right") Se debe seguir las siguientes instrucciones:
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center(titulo="1")
           .col-lg-5.mb-4.mb-lg-0
@@ -83,7 +82,7 @@
             p Se sugiere ir realizando cada uno de los ejercicios y ejemplos expuestos, para la anterior imagen cree un archivo con la extensión .html y digite el código expuesto, posteriormente ejecute el archivo en algún navegador de su preferencia para que pueda evidenciar la funcionalidad.
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 5]. Ejecución de archivo html en navegador por defecto
-    .row.bg-c5.mb-5
+    .row.bg-c5.mb-5(data-aos="fade-left")
       .col-12
         .px-5.pt-5.pb-5.pb-lg-0
           .row.justify-content-center.align-items-center
@@ -95,7 +94,7 @@
               a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -104,19 +103,19 @@
           .col
             h3.mb-0 Variables
     .row.align-items-center.mb-3
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p Son identificadores de memoria o contenedores que permiten almacenar valores, para poder hacer uso de estos en el lenguaje de JavaScript primero se deben declarar y asignar un nombre, para posteriormente hacer uso de estos
         .cajon.color-primario.p-4.mb-4
           p.mb-0 #[b Los identificadores hacen referencia a las constantes o variables que son requeridas para el control de un flujo. Como se mencionó previamente JavaScript es un lenguaje no tipado, por lo cual para realizar una declaración de identificador de memoria este no estará atado a un tipo de dato en específico, tal como sucede en otro lenguaje altamente tipados como Java, C, C++, C#.]
         p.mb-0 Por el contrario, al realizar una declaración solo se establece el espacio de memoria y al realizar la asignación automáticamente ese identificador tomará la especificación del dato asignado.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img7.png', style="width: 380px" ,alt='').m-auto
-    p.mb-5 Por ejemplo, para poder crear un identificador será necesario utilizar la palabra reservada #[span.txt-c1 ‘var’] o #[span.txt-c1 ‘let’], a continuación se define el nombre del identificador, el cual no puede ser números, no debe tener caracteres especiales y podrá ser una cadena secuencial de caracteres acompañados de números al final, ver figura 6.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") Por ejemplo, para poder crear un identificador será necesario utilizar la palabra reservada #[span.txt-c1 ‘var’] o #[span.txt-c1 ‘let’], a continuación se define el nombre del identificador, el cual no puede ser números, no debe tener caracteres especiales y podrá ser una cadena secuencial de caracteres acompañados de números al final, ver figura 6.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 6]. Declaración de identificador de memoria
     .row.mb-5
-      .col-12.bg-c2
+      .col-12.bg-c2(data-aos="fade-right")
         .p-4
           .row.justify-content-center
             .col-lg-6
@@ -127,12 +126,11 @@
                   |8  var nombre1 = "Juan";
                   |9  var edad = 123;
                   |10 var casado = true;
-              p #[b Nota]. SENA (2022)
-    p.mb-5 Los datos de una variable pueden estar quemados en el código fuente tal como los expuestos en la figura 6, o se pueden recibir de la interacción con el usuario por medio de elementos de control de entrada, como la figura 7.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") Los datos de una variable pueden estar quemados en el código fuente tal como los expuestos en la figura 6, o se pueden recibir de la interacción con el usuario por medio de elementos de control de entrada, como la figura 7.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 7]. Ingreso de datos por ventanas emergentes
     .row.mb-5
-      .col-12.bg-c2
+      .col-12.bg-c2(data-aos="fade-right")
         .p-4
           .row.justify-content-center
             .col-lg-6
@@ -153,9 +151,8 @@
                   |     &lt;/script&gt;
                   |   &lt;/body&gt;
                   | &lt;/html&gt;
-              p #[b Nota]. SENA (2022)
-    p.mb-5 En JavaScript existen diferentes tipos de datos tal como se enseña a continuación:
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") En JavaScript existen diferentes tipos de datos tal como se enseña a continuación:
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-10.col-sm-6.col-md-5.col-lg-4.col-xl-3.col-xxl.mb-4.mb-xxl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -197,18 +194,18 @@
               p #[b Object]
               p Es el tipo de dato en el que cualquier cosa se puede almacenar, básicamente en JavaScript, todo es un objecto.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img5.svg')})`}")
-    p Las variables son requeridas dado que con estas se pueden hacer los procesos de programación dinámicos, permitiendo permutar la información a la medida que se ejecutan las funcionalidades implementadas.
+    p(data-aos="fade-right") Las variables son requeridas dado que con estas se pueden hacer los procesos de programación dinámicos, permitiendo permutar la información a la medida que se ejecutan las funcionalidades implementadas.
     Separador
     #t_1_2
     .titulo-segundo.color-acento-botones
       h2 1.2. Declaraciones
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-right")
       .col-md-auto.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/tema1/img6.svg', style="width: 80px" ,alt='').m-auto
       .col
         p.mb-0 En el desarrollo de software y en el aprendizaje de un lenguaje de programación hay diferentes aspectos a tener en cuenta, entre los cuales está la gramática y sintaxis, para obtener el máximo rendimiento al momento de realizar desarrollos e implementaciones.
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -217,19 +214,19 @@
           .col
             h3.mb-0 Conceptos básicos
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p Entre los conceptos básicos, se puede resaltar que JavaScript es un lenguaje que no tiene distinción entre mayúsculas y minúsculas, por lo cual, si se realiza la definición de una variable en mayúsculas o minúsculas esto hará referencia al mismo identificador de memoria, en otras palabras y dicho de forma técnica es un lenguaje #[b case-sensitive]. También es importante recordar que se debe hacer uso de un sistema de caracteres #[b Unicode] por lo que no es correcto utilizar caracteres especiales para definir identificaciones de memoria.
         p.mb-0 Entre otras de las características básicas de JavaScript, es que al finalizar una línea de código o una sentencia no es necesario poner al final un ‘;’ pero en las reglas definidas por el lenguaje se sugiere que se agregue como una buena práctica.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img6.png', style="width: 380px" ,alt='').m-auto
-    .titulo-sexto.color-acento-contenido.mb-4
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 7].  Ingreso de datos por ventanas emergentes
     .row.mb-5
       .col-12.bg-c2
         .p-4
           .row.align-items-center
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               pre
                 code.language-html
                   |1  &lt;! DOCTYPE html&gt;
@@ -244,10 +241,9 @@
                   |10     &lt;/script&gt;
                   |11   &lt;/body&gt;
                   |12 &lt;/html&gt;
-              p.mb-0 #[b Nota]. SENA (2022)
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               p.mb-0 En la figura, se puede observar que en la línea 7 y 8, al definir el identificador #[b primerNombre] y #[b primernombre], respectivamente, hacer referencia al mismo espacio en memoria, por lo cual, al ser un lenguaje con case-sensitive, inicialmente el identificador tendrá el valor de ‘Juan’ y luego será remplazado por ‘Alex’; ahora en la línea 9 se puede observar que la variable definida como #[b cantidadNiños], es incorrecta dado que utiliza un carácter especial perteneciente al lenguaje español que es la ‘ñ’, esta variable deberá ser renombrada de otra forma y por último se puede observar que las líneas 7, 8 y 9, que se finaliza con ‘;’ recordando que no es una norma del lenguaje, pero es una recomendación de buena práctica.
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -255,11 +251,11 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Comentarios
-    p.mb-5 Un comentario es un bloque de código no ejecutable, destinada para dejar anotaciones útiles para para el programador, que por lo general es usado para documentar variables, operaciones, funciones y se pueden aplicar en la mayoría de los elementos del programa. La sintaxis de los bloques de comentarios en JavaScript es igual que muchos lenguajes de programación.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") Un comentario es un bloque de código no ejecutable, destinada para dejar anotaciones útiles para para el programador, que por lo general es usado para documentar variables, operaciones, funciones y se pueden aplicar en la mayoría de los elementos del programa. La sintaxis de los bloques de comentarios en JavaScript es igual que muchos lenguajes de programación.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 9]. Comentarios en JavaScript
     .row.mb-5
-      .col-12.bg-c2
+      .col-12.bg-c2(data-aos="fade-right")
         .p-4
           .row.justify-content-center
             .col-lg-auto
@@ -282,15 +278,14 @@
                   |     &lt;/script&gt;
                   |   &lt;/body&gt;
                   | &lt;/html&gt;
-              p #[b Nota]. SENA (2022)
-    p En la figura 9, se puede observar que hay varias formas de crear comentarios, si se requiere un comentario de una sola línea solo con iniciar la sentencia con // será suficiente, pero dado el caso que se requiera que sea un párrafo o más de una línea deberá iniciarse así /* y cerrarse de la siguiente manera */. Adicional a eso recordar que no se pueden anidar comentarios.
-    p.mb-0 Los conceptos básicos del lenguaje abarcan otros temas, los cuales se irán abarcando en el desarrollo de este componente.
+    p(data-aos="fade-right") En la figura 9, se puede observar que hay varias formas de crear comentarios, si se requiere un comentario de una sola línea solo con iniciar la sentencia con // será suficiente, pero dado el caso que se requiera que sea un párrafo o más de una línea deberá iniciarse así /* y cerrarse de la siguiente manera */. Adicional a eso recordar que no se pueden anidar comentarios.
+    p.mb-0(data-aos="fade-right") Los conceptos básicos del lenguaje abarcan otros temas, los cuales se irán abarcando en el desarrollo de este componente.
     Separador
     #t_1_3
     .titulo-segundo.color-acento-botones
       h2 1.3. Operadores y objetos
-    p.mb-5 Los operadores en JavaScript son signos o símbolos que sirven para definir expresiones, las cuales pueden ser de asignación, lógicas, aritméticas, de comparación y referencia.
-    .row.mb-4
+    p.mb-5(data-aos="fade-right") Los operadores en JavaScript son signos o símbolos que sirven para definir expresiones, las cuales pueden ser de asignación, lógicas, aritméticas, de comparación y referencia.
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -299,10 +294,10 @@
           .col
             h3.mb-0 Operadores de asignación
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img8.png', style="width: 420px" ,alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Son aquellos operadores que definen un valor del operando derecho al operando izquierdo, siempre y cuando el operando izquierdo no sea un valor literal, es decir que sea un identificador de memoria, el operando de asignación más utilizado y sencillo de recordar es el igual (=), el cual permite asignar un valor a la variable definida en el lado izquierdo, ver figura 10.
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 10]. Operador de asignación (=)
@@ -318,8 +313,7 @@
                       | var nota2 =  4;
                       | var nota3 = nota1 + 1;
                       | var promedio = (nota1 + nota2 + nota3) / 3
-                  p #[b Nota]. SENA (2022)
-    .row.bg-c5.mb-5
+    .row.bg-c5.mb-5(data-aos="fade-down")
       .col-12
         .px-5.pt-5.pb-5.pb-lg-0
           .row.justify-content-center.align-items-center
@@ -332,7 +326,7 @@
               a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -340,11 +334,11 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Operadores de comparación
-    p.mb-5 Son aquellos que realizan una evaluación entre los operandos y devuelven un valor lógico, es decir un valor de verdadero o falso, los operandos pueden ser números, cadenas, booleanos, caracteres; dado el caso que los operandos no sean del mismo tipo, el intérprete de JavaScript intentará realizar una conversión implícita para hacer la evaluación, ver figura 11.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") Son aquellos que realizan una evaluación entre los operandos y devuelven un valor lógico, es decir un valor de verdadero o falso, los operandos pueden ser números, cadenas, booleanos, caracteres; dado el caso que los operandos no sean del mismo tipo, el intérprete de JavaScript intentará realizar una conversión implícita para hacer la evaluación, ver figura 11.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 11]. Operador de comparación (==)
     .row.mb-5
-      .col-12.bg-c2
+      .col-12.bg-c2(data-aos="fade-left")
         .p-4
           .row.justify-content-center
             .col-lg-auto
@@ -353,10 +347,9 @@
                   | var var1 = 3;
                   | var var2 = 4;
                   | var result = var1 == var2;
-              p #[b Nota]. SENA (2022)
-    p.mb-5 En la figura 11 se puede observar la creación de dos identificadores de memoria var1 y var2, los cuales tienen una asignación de valor respectivamente, posteriormente se crea un identificador denominado result, este almacena el valor de comparar si var1 es igual a var2, el cual es falso; por lo tanto, el valor de result es el valor de ‘false’, se puede observar así:
+    p.mb-5(data-aos="fade-right") En la figura 11 se puede observar la creación de dos identificadores de memoria var1 y var2, los cuales tienen una asignación de valor respectivamente, posteriormente se crea un identificador denominado result, este almacena el valor de comparar si var1 es igual a var2, el cual es falso; por lo tanto, el valor de result es el valor de ‘false’, se puede observar así:
     .row.mb-5
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         TabsA.color-acento-contenido.mb-5
           .tarjeta.color-acento-botones.p-4(titulo="Igual (==)")
             h4.mb-4 Operador #[span.txt-c3 Igual (==)]
@@ -463,13 +456,12 @@
                 .p-1
                   p.text-center.mb-0 #[b.txt-c4 var2 <= 15]
             p.mb-0 #[b Nota: (=>) no es un operador, sino la notación para Funciones flecha.]
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img10.svg', style="width: 320px" ,alt='').m-auto
-    
-    p Anteriormente se pudo observar los diferentes tipos de operadores de comparación, es importante recordar que estos ayudan a evaluar dos operandos, retornando con ello un valor booleano de verdadero o
-    p.mb-5 falso, esto es útil al construir una sentencia relacional como las que son usadas en los condicionales o algunos de los ciclos.
-    .row.mb-4
+    p(data-aos="fade-right") Anteriormente se pudo observar los diferentes tipos de operadores de comparación, es importante recordar que estos ayudan a evaluar dos operandos, retornando con ello un valor booleano de verdadero o
+    p.mb-5(data-aos="fade-right") falso, esto es útil al construir una sentencia relacional como las que son usadas en los condicionales o algunos de los ciclos.
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -477,11 +469,11 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Operadores aritméticos
-    p.mb-5 Son aquellos que realizan operaciones matemáticas, ya sea con valores literales o variables, entre estos operadores encontramos el (+) (-) (/) (*), ver figura 12.
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") Son aquellos que realizan operaciones matemáticas, ya sea con valores literales o variables, entre estos operadores encontramos el (+) (-) (/) (*), ver figura 12.
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 12]. Operadores aritméticos comunes
     .row.mb-5
-      .col-12.bg-c2
+      .col-12.bg-c2(data-aos="fade-left")
         .p-4
           .row.justify-content-center
             .col-lg-auto
@@ -489,14 +481,13 @@
                 code.language-javascript
                   | var var1 = 3;
                   | var var2 = 4;
-                  | var r1 = var1 + 3; // 6
-                  | var r2 = 5 - 4; //
-                  | var r3 = 3 * var2;
-                  | var r4 = var2 / 2; // 2
-                  | var r5 = 12 % 2; // 0
-              p #[b Nota]. SENA (2022)
-    p.mb-5 Además, se debe observar la siguiente tabla:
-    .tabla-a.color-acento-contenido.mb-5 
+                  | var r1 = var1 + 3;  // 6
+                  | var r2 = 5 - 4;     // 1
+                  | var r3 = 3 * var2;  //12
+                  | var r4 = var2 / 2;  // 2
+                  | var r5 = 12 % 2;    // 0
+    p.mb-5(data-aos="fade-right") Además, se debe observar la siguiente tabla:
+    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-up")
       table
         thead
           tr
@@ -536,9 +527,9 @@
               p.mb-0 10 ** -1 returns 0.1.
     .row.justify-content-center.mb-5
       .col-lg-8
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4(data-aos="fade-down")
           p.mb-0 #[b Estos operadores solo pueden ser usados en el ámbito matemático, operando valores numéricos, con identificadores de memoria del tipo numérico.]
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -546,8 +537,8 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Operadores lógicos
-    p.mb-5 Son aquellos operadores que se usan para establecer uniones entre valores booleanos, y generar un valor booleano. Tener en cuenta los siguientes ejemplos:
-    TabsC.color-acento-contenido.mb-5
+    p.mb-5(data-aos="fade-right") Son aquellos operadores que se usan para establecer uniones entre valores booleanos, y generar un valor booleano. Tener en cuenta los siguientes ejemplos:
+    TabsC.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo="Ejemplo de operador && (y)")
         .row.justify-content-center
           .col-auto
@@ -580,8 +571,8 @@
                 | var n1 = !true;      // t devuelve false
                 | var n2 = !false;     // f devuelve true
                 | var n3 = !'Cat';     // t devuelve false
-    p.mb-5 Para completar la información anterior revisar en detalle los datos que se presentan entre operador, uso y la descripción de cada uno de los que se relacionan.
-    .tabla-a.color-acento-contenido.mb-5 
+    p.mb-5(data-aos="fade-right") Para completar la información anterior revisar en detalle los datos que se presentan entre operador, uso y la descripción de cada uno de los que se relacionan.
+    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-up")
       table
         thead
           tr
@@ -601,7 +592,7 @@
             th NOT lógico (!)
             td.text-center ! expresion
             td Tener en cuenta que la expresión debe retornar un valor lógico true/false. Dado el caso que la expresión sea true, al negarse retornara el valor contrario, es decir, false; y en caso contrario ocurrirá lo mismo.
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
           .col-auto.pe-0
@@ -609,7 +600,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Objetos
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-left")
       .col-md-auto.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img11.svg', style="width: 80px" ,alt='').m-auto
@@ -617,11 +608,11 @@
         p JavaScript, es un lenguaje que está construido en un paradigma basado en objetos, recordando que un objeto es una estructura que permite la colección de propiedades, atributos, características o datos, estos a su vez tienen asociado un valor es decir una información relacionada a lo que representa.
         p.mb-0 Tener en cuenta el siguiente ejemplo:
     .row.mb-5
-      .col-12.bg-c11
+      .col-12.bg-c11(data-aos="fade-right")
         .p-4
           figure
             img(src='@/assets/curso/tema1/img12.svg', style="width: 1250px" ,alt='').m-auto
-    p.mb-0 Estas son algunas de las particularidades de JavaScript para la definición de objetos en el lenguaje.
+    p.mb-0(data-aos="fade-right") Estas son algunas de las particularidades de JavaScript para la definición de objetos en el lenguaje.
 
 </template>
 

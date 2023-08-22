@@ -194,32 +194,130 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Tecnologías para el desarrollo Node.js',
+      referencia:
+        'Gabriel Coding. (2020). <i>COMO INSTALAR NODE JS EN WINDOWS 10</i>. ',
+      tipo: 'Vídeo de Youtube',
+      link: 'https://www.youtube.com/watch?v=BgtB31gXkoA',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Poo y estructuras de control',
+      referencia:
+        'Ortega, D. J. O., & Pérez, M. A. B. (2019). <i>Bootstrap y Laravel, herramientas para el desarrollo de aplicaciones web</i>.',
+      tipo: 'PDF',
+      descarga: '/downloads/anexo1.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Backend',
+      significado:
+        'desarrollo que se realiza del lado del servidor, aplicaciones que centralizan principalmente la lógica del negocio, las bases de datos y los recursos de un sistema para que sean consumidos por una aplicación tipo cliente, o un frontend.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Framework',
+      significado:
+        'librería o marco de trabajo que contiene, clases, funciones, configuraciones, paquetes y componentes, que son comunes en el desarrollo de funcionalidades.',
+    },
+    {
+      termino: 'Frontend',
+      significado:
+        'desarrollo que se realiza del lado del cliente, aplicaciones web, aplicaciones de escritorio, aplicaciones móviles; estas se despliegan en la máquina del usuario. Esta es la capa o el nivel con lo que los usuarios interactúan. ',
+    },
+    {
+      termino: 'JavaScript',
+      significado:
+        'lenguaje de programación tipo scripting que sirve para agregar funcionalidad a documentos web.',
+    },
+    {
+      termino: 'Localhost',
+      significado:
+        'en el contexto de las redes de computadoras, localhost es una computadora que ejecuta un programa. La computadora que se tiene al frente funciona también como un servidor virtual. Este modo es comúnmente utilizado para realizar pruebas en el desarrollo web.',
+    },
+    {
+      termino: 'TypeScript',
+      significado:
+        'lenguaje de programación creado por Microsoft, que da supercapas a JavaScript, se caracteriza por añadir características de lenguaje orientado a objetos. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Red Hat. (2021). <i>El concepto de IDE</i>. ',
+      link: 'https://www.redhat.com/es/topics/middleware/what-is-ide',
+    },
+    {
+      referencia:
+        'Colaboradores de los proyectos Wikimedia. (2020). <i>Framework para aplicaciones web - Wikipedia, la enciclopedia libre</i>. ',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=Framework_para_aplicaciones_web&oldid=128980356',
+    },
+    {
+      referencia:
+        'Fundéu RAE. (2012). <i>Edición y maquetación de documentos web</i>. ',
+      link:
+        'https://www.fundeu.es/escribireninternet/edicion-y-maquetacion-de-documentos-web',
+    },
+    {
+      referencia: 'NodeJS.org. (2021). <i>Acerca de Node.js. Node.js</i>. ',
+      link: 'https://nodejs.org/es/about/',
+    },
+    {
+      referencia: 'npm. (2021). <i>npm About</i>. ',
+      link: 'https://www.npmjs.com/about',
+    },
+    {
+      referencia:
+        'Mozilla. (2021b, junio 9). <i>Introducción a Express/Node - Aprende sobre desarrollo web | MDN. MDN Web Docs</i>. ',
+      link:
+        'https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction',
+    },
+    {
+      referencia: 'Gomez, D. (2017). Nodemon. <i>vortexbird</i>. ',
+      link:
+        'https://vortexbird.com/nodemon/#:%7E:text=Nodemon%20es%20una%20utilidad%20que,desarrollo%20de%20aplicaciones%20en%20nodojs',
+    },
+    {
+      referencia:
+        'Choque, J. C. (2016). <i>Adición de estándares de codificación nodejs</i>. ',
+      link:
+        'https://gitlab.agetic.gob.bo/dbarra/bolivia-libre/commit/1ff84b6ae70f0e9436f6e6ddc7f3e060bc9556ad',
+    },
+    {
+      referencia:
+        'Whyte, A. (2021). Google JavaScript Style Guide. <i>Google JavaScript Style Guide</i>. ',
+      link: 'https://google.github.io/styleguide/javascriptguide.xml',
+    },
+    {
+      referencia:
+        'Express. (2021). <i>Direccionamiento básico de Express</i>. ',
+      link: 'https://expressjs.com/es/starter/basic-routing.html',
+    },
+    {
+      referencia:
+        'Mozilla. (2021b). <i>await - JavaScript | MDN. MDN Web Docs</i>. ',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/await',
+    },
+    {
+      referencia:
+        'López, A. (2021). <i>Qué es Postman y para qué sirve. OpenWebinars.net</i>. ',
+      link: 'https://openwebinars.net/blog/que-es-postman/',
+    },
+    {
+      referencia: 'Chrome web store. (2021). <i>Postman</i>. ',
+      link:
+        'https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=es-419',
+    },
+    {
+      referencia:
+        'Lázaro, G. (2015). <i>Efecto Ripple de Material Design [HTML+CSS+JS]</i>. ',
+      link:
+        'https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js',
+    },
+    {
+      referencia: 'Material Design. (2021). <i>The color system</i>. ',
+      link:
+        'https://material.io/design/color/the-color-system.html#color-usage-and-palettes',
     },
   ],
   creditos: [
@@ -227,14 +325,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -242,9 +341,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gustavo Adolfo Rodríguez Quinayas',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Leydy Jhuliana Jaramillo Mejía',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesor pedagógico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -252,14 +373,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yuly Rey',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador fullstack',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Nombre',

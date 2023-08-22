@@ -32,6 +32,9 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.svg") !important
 
+.banner-interno__titulo__icono i
+  color: #451484 !important
+
 .tarjeta--gris
   background-color: #ECFDFE
 
@@ -40,6 +43,9 @@
 
 .tarjeta.color-acento-botones
   background-color: #FFE2E7
+
+.tarjeta.color-acento-botones1
+  background-color: #B4A5C7
 
 .tabs-a__tab
   background-color: #C8F7FB
@@ -53,6 +59,11 @@
   background-color: #DBFAFC
 .cajon.color-secundario:before
   background-color: #4BE5F1
+
+.cajon.color-acento-botones
+  background-color: #DAD0E6
+.cajon.color-acento-botones:before
+  background-color: #451484
 
 .tabs-c
   border-bottom: 0px
@@ -71,6 +82,12 @@
 .tarjeta.color-primario4
   background-color: #B4A5C7
 
+.tarjeta.color-primario5
+  background-color: #FEC5CE
+
+.tarjeta.color-primario6
+  background-color: #C8F7FB
+
 .tarjeta.tarjeta--azul
   background-image: url(../assets/curso/tema2/img2.svg)
   background-repeat: no-repeat
@@ -88,6 +105,41 @@
 .modal-a__content
   width: auto
   height: 93%
+
+.tarjeta-numerada
+  height: 100%
+
+.tarjeta-numerada.color-primario1
+  border-color: #FFDA47
+  .tarjeta-numerada__numero
+    background-color: #FFDA47
+
+.tarjeta-numerada.color-primario2
+  border-color: #FB405F
+  .tarjeta-numerada__numero
+    background-color: #FB405F
+
+.tarjeta-numerada.color-primario3
+  border-color: #4BE5F1
+  .tarjeta-numerada__numero
+    background-color: #4BE5F1
+
+.tarjeta-numerada.color-primario4
+  border-color: #1FCF42
+  .tarjeta-numerada__numero
+    background-color: #1FCF42
+
+.lista-ol--cuadro__vineta
+  background-color: #451484
+
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
+  background-color: white
+
+.tabla-b td, .tabla-b th
+  border: 1px solid #E1E1E1
+
+.tarjeta.color-acento-contenido
+  background-color: #E4FBFD
 
 .bg
   &-c1
@@ -137,6 +189,24 @@
   &-c15
     background-color: #FFDA47
     border-radius: 25px
+  &-c16
+    background-color: #C8F7FB
+    border-radius: 25px
+  &-c17
+    background-color: #E2DDE9
+  &-c18
+    background-color: #DBFAFC
+    margin-inline: -3.2rem !important
+  &-c19
+    background-color: #E8E8E8
+  &-c20
+    background-image: url(../assets/curso/tema4/img6.svg)
+    background-repeat: no-repeat
+    background-size: coverc
+    background-position: right
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
+      background-color: #C8F7FB
 
 .txt
   &-c1
