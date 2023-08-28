@@ -634,6 +634,9 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
 }
 </script>
