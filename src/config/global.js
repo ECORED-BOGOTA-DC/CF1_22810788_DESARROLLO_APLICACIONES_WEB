@@ -242,7 +242,7 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Red Hat. (2021). <i>El concepto de IDE</i>. ',
+      referencia: 'Red Hat. (2021). <i>¿Qué es y para qué sirve un IDE? </i>. ',
       link: 'https://www.redhat.com/es/topics/middleware/what-is-ide',
     },
     {
@@ -262,7 +262,7 @@ export default {
       link: 'https://nodejs.org/es/about/',
     },
     {
-      referencia: 'npm. (2021). <i>npm About</i>. ',
+      referencia: 'npm. (2021). <i>About npm</i>. ',
       link: 'https://www.npmjs.com/about',
     },
     {
@@ -300,7 +300,7 @@ export default {
     },
     {
       referencia:
-        'López, A. (2021). <i>Qué es Postman y para qué sirve. OpenWebinars.net</i>. ',
+        'López, A. (2021). <i>Qué es Postman y primeros pasos. OpenWebinars.net</i>. ',
       link: 'https://openwebinars.net/blog/que-es-postman/',
     },
     {
@@ -311,8 +311,7 @@ export default {
     {
       referencia:
         'Lázaro, G. (2015). <i>Efecto Ripple de Material Design [HTML+CSS+JS]</i>. ',
-      link:
-        'https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js',
+      link: '',
     },
     {
       referencia: 'Material Design. (2021). <i>The color system</i>. ',
@@ -326,7 +325,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del equipo',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -385,9 +384,22 @@ export default {
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -395,14 +407,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

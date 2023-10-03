@@ -523,7 +523,7 @@
           .row(titulo="Clase")
             .col-12
               p Fueron incluidas en 2015, con la finalidad de mejorar la sintaxis basada en la herencia orientada a prototipos, pero no representa una mejora en la misma, solo de manera estructura y la facilidad para realizar herencias.
-              p La forma para definir una clase en JavaScript es por medio de las estructuras especializadas similares a los de otros lenguajes y es la estructura #[i class], ver figura modo estricto de clase en JavaScript
+              p La forma para definir una clase en JavaScript es por medio de las estructuras especializadas similares a los de otros lenguajes y es la estructura #[i class], ver figura modo estricto de clase en JavaScript.
               a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
                 span Modo estricto de clase en JavaScript
                 .indicador--click(v-if="mostrarIndicador")
@@ -709,7 +709,7 @@
         .row.mb-3
           .col-12
             img(src='@/assets/curso/tema2/img12.png' alt='AvatarTop')
-        p El paradigma de programación orientado a objetos conlleva al uso de estructuras mas especializadas para realizar el desarrollo, de la misma forma que el procedimental, estas estructuras son globales y se pueden reutilizar en toda la aplicación.
+        p El paradigma de programación orientado a objetos conlleva al uso de estructuras más especializadas para realizar el desarrollo, de la misma forma que el procedimental, estas estructuras son globales y se pueden reutilizar en toda la aplicación.
       .tarjeta.color-acento-botones1.p-4
         .row.mb-3
           .col-12

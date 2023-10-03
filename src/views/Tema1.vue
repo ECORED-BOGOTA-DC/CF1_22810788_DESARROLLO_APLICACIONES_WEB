@@ -46,7 +46,7 @@
         .row.justify-content-center(titulo="1")
           .col-lg-5.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img1.png', style="width: 450px" ,alt='').m-auto
+              img(src='@/assets/curso/tema1/img1.png', style="width: 450px" ,alt='Imagen de una persona digitando código.').m-auto
           .col-lg-5
             p.mb-0 Cree un espacio de trabajo en su disco duro, es decir cree una carpeta con el siguiente nombre ‘Ejercicios web’.
         .row.justify-content-center(titulo="2")
@@ -56,7 +56,7 @@
               p.mb-0 #[b Figura 2]. Estructura de almacenamiento
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img2.png', style="width: 450px" ,alt='').m-auto
+              img(src='@/assets/curso/tema1/img2.png', style="width: 450px" ,alt='Imagen con la estructura de las carpetas dentro del disco duro.').m-auto
         .row.justify-content-center(titulo="3")
           .col-lg-5.mb-4.mb-lg-0
             p Cree un archivo con el nombre ‘index.html’, es importante que el archivo sea de extensión html, este tipo de archivo es el que se renderiza en los navegadores web. Para esto es importante tener un IDE o un editor de código. Como recomendación puede hacer uso del editor Visual Studio Code o Sublime Text.
@@ -64,7 +64,7 @@
               p.mb-0 #[b Figura 3]. Pantallazo de Sublime Text y código HTML
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img3.png', style="width: 450px" ,alt='').m-auto
+              img(src='@/assets/curso/tema1/img3.png', style="width: 450px" ,alt='Imagen de un pantallazo de Sublime Text y código HTML.').m-auto
         .row.justify-content-center(titulo="4")
           .col-lg-5.mb-4.mb-lg-0
             p Para ejecutar este ejemplo, puede buscar el archivo ‘index.html’ en el explorador de archivos y dar doble clic, se procederá a ejecutarse el navegador por defecto.
@@ -72,11 +72,11 @@
               p.mb-0 #[b Figura 4]. Archivo html desde explorador de archivos
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img4.png', style="width: 350px" ,alt='').m-auto
+              img(src='@/assets/curso/tema1/img4.png', style="width: 350px" ,alt='Imagen de un archivo html desde explorador de archivos.').m-auto
         .row.justify-content-center(titulo="5")
           .col-lg-5.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img5.png', style="width: 450px" ,alt='').m-auto
+              img(src='@/assets/curso/tema1/img5.png', style="width: 450px" ,alt='Imagen que muestra la ejecución de archivo html en navegador por defecto con el texto denominado: Hola mundo').m-auto
           .col-lg-5
             p Se sugiere ir realizando cada uno de los ejercicios y ejemplos expuestos, para la anterior imagen cree un archivo con la extensión .html y digite el código expuesto, posteriormente ejecute el archivo en algún navegador de su preferencia para que pueda evidenciar la funcionalidad.
             .titulo-sexto.color-acento-contenido
@@ -320,9 +320,8 @@
               figure
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
-              p.mb-0 #[b.text-white También se pueden utilizar operadores de asignación compuestas tal como la siguiente tabla]
-              p #[b.txt-c2 Anexo_ operadores de asignación compuestas]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              p #[b.text-white También se pueden utilizar operadores de asignación compuestas tal como la siguiente tabla.]
+              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
     .row.mb-4(data-aos="fade-down")
@@ -601,7 +600,7 @@
       .col-12.bg-c11(data-aos="fade-right")
         .p-4
           figure
-            img(src='@/assets/curso/tema1/img12.svg', style="width: 1250px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img12.svg', style="width: 1250px" ,alt='Imagen que contiene un ejemplo de objetos JavaScript, el cual tiene la siguiente información a modo de historieta: Comencemos...tenemos el objeto tipo persona, y ese objeto tiene como atributos el nombre y la edad, esos atributos deberán almacenar información tales como ‘Juan’ y 18, datos que corresponden a las propiedades definidas en el objeto. Al igual que en la mayoría de los lenguajes de programación, en JavaScript un objeto también representa la abstracción de un objeto en la vida real. Se muestra un código Declaración de un objeto. Como se puede observar en la figura Declaración de un objeto, en JavaScript se pueden definir objetos realizando la instanciación de la clase Object y a la medida que se requiera agregar propiedades a la instancia, de la misma manera se podrán añadir valores a las propiedades definidas. Este objeto también se puede definir con el identificado de objeto tal como lo podemos observar en la figura Notación de objeto. Se muestra un código Notación de un objeto.').m-auto
     p.mb-0(data-aos="fade-right") Estas son algunas de las particularidades de JavaScript para la definición de objetos en el lenguaje.
 
 </template>

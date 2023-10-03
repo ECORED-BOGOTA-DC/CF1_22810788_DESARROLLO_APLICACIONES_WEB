@@ -116,7 +116,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 #[b Teniendo en cuenta lo anterior, crear un proyecto tipo mockup en la siguiente herramienta: https://balsamiq.cloud/]
+                  p.mb-0 #[b Teniendo en cuenta lo anterior, crear un proyecto tipo mockup en la siguiente herramienta:]
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://balsamiq.cloud/" target="_blank")
                     span(style="color: #12263F !important") Ver enlace
@@ -126,25 +126,25 @@
         .row
           .col-12.p-4
             figure
-              img(src='@/assets/curso/tema4/img3.png', style="width: 850px" ,alt='').m-auto
+              img(src='@/assets/curso/tema4/img3.png', style="width: 850px" ,alt='Imagen del proceso de registro a la página Balsamiq Cloud.').m-auto
       .tarjeta.color-acento-contenido.p-4(titulo="Creación del espacio de trabajo")
         .row
           .col-12.p-4
             figure
-              img(src='@/assets/curso/tema4/img4.png', style="width: 850px" ,alt='').m-auto
+              img(src='@/assets/curso/tema4/img4.png', style="width: 850px" ,alt='Imagen del espacio de trabajo de la página Balsamiq Cloud.').m-auto
       .tarjeta.color-acento-contenido.p-4(titulo="Creación del primer proyecto")
         .row
           .col-12.p-4
             p Panel de creación de proyecto en Balsamiq Cloud
             figure
-              img(src='@/assets/curso/tema4/img5.png', style="width: 850px" ,alt='').m-auto
+              img(src='@/assets/curso/tema4/img5.png', style="width: 850px" ,alt='Imagen de la creación del primer proyecto de la página Balsamiq Cloud.').m-auto
       .tarjeta.color-acento-contenido.p-4(titulo="Creación de la estructura")
         .row
           .col-12.p-4
             p #[b Creación de la estructura de las vistas]
             p Vistas para GUI web
             figure.mb-3
-              img(src='@/assets/curso/tema4/img6.png', style="width: 850px" ,alt='').m-auto
+              img(src='@/assets/curso/tema4/img6.png', style="width: 850px" ,alt='Imagen de la creación de la estructura de las vistas de la página Balsamiq Cloud.').m-auto
             p.mb-0 #[b #[i Balsamiq]], solo es una herramienta de las muchas que se pueden encontrar en internet.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
@@ -191,7 +191,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 TypeScript
-    p.mb-5(data-aos="fade-right") #[i TypeScript] es un super conjunto de JavaScript, el cual compila en JavaScript, es decir su código fuente se escribe en Ts y luego se convierte en Js para ser interpretado. Esto se realiza automáticamente dependiente de la herramienta de pre-compilación ya sea en el frontend o el backend. Se debe recordar que el navegador web solo puede interpretar archivos JavaScript (ver figura 28).
+    p.mb-5(data-aos="fade-right") #[i TypeScript] es un super conjunto de JavaScript, el cual compila en JavaScript, es decir su código fuente se escribe en Ts y luego se convierte en Js para ser interpretado. Esto se realiza automáticamente dependiente de la herramienta de pre-compilación ya sea en el frontend o el backend. Se debe recordar que el navegador web solo puede interpretar archivos JavaScript (ver figura 24).
     .row.mb-5
       .col-12.bg-c20.p-4.p-lg-0
         .row.align-items-center
@@ -222,7 +222,7 @@
                 |
                 p.mb-0 Captura de errores en proceso de compilación.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
-      p.mb-0 #[b Figura 23]. Desarrollo del lado servidor con NodeJs
+      p.mb-0 #[b Figura 24]. Estructura tipo clase de TypeScript
     .row.mb-5
       .col-12.bg-c2(data-aos="fade-left")
         .p-4
@@ -304,7 +304,7 @@
         figure
           img(src='@/assets/curso/tema4/img9.svg', style="width: 70px" ,alt='').m-auto
       .col
-        p.mb-0 Es un #[i framework] para el desarrollo de aplicaciones web del lado del cliente, al igual que Angular Y VueJs, este está desarrollado directamente en JavaScript y es mantenido por Facebook, es de licencia libre, busca implementar una arquitectura MVC o MVVM.
+        p.mb-0 Es un #[i framework] para el desarrollo de aplicaciones web del lado del cliente, al igual que Angular Y Vue.js, este está desarrollado directamente en JavaScript y es mantenido por Facebook, es de licencia libre, busca implementar una arquitectura MVC o MVVM.
 
 </template>
 

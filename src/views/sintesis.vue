@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema gráfico que resume lo abordado en el componente formativo, indicando lo relacionado con los fundamentos de JavaScript, los cuales se compone de: Desarrollo web. Fundamentos: Html, Css, Js. Paradigmas y estructuras de control: secuencial, condicionantes, funciones y bloques, programación orientada a objetos. Frameworks: Fronted, Backend. Despliegue.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
