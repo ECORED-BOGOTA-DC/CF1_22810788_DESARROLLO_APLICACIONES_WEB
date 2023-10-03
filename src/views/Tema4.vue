@@ -16,7 +16,7 @@
         p El desarrollo de aplicaciones del lado del cliente específicamente soluciones nativas se pueden encontrar diversas tecnologías, para Android se tiene Android Studio, el cual es una serie de SDK’ donde el lenguaje principal es Java o Kotlin; mientras que para iOS se tiene xcode que al igual que Android estudio tiene sus librerías, teniendo como lenguaje de desarrollo Swift y previamente Objective C; cuando se vira al desarrollo de aplicaciones de escritorio, cada casa puede tener sus propias herramientas de desarrollo, tal como se ve en el mundo #[i mobile], en el caso de Microsoft se cuenta con Visual Studio, y como lenguajes de programación C#, C++, entre otros; Mac como se mencionó previamente hace uso de xcode y Swift; haciendo un paréntesis en este punto, es de recordar que las aplicaciones desarrolladas para Windows no son compatibles con las aplicaciones de OSX, al igual que las desarrolladas para Android no son compatibles con iOS.
         .cajon.color-primario.p-4
           p.mb-0 También se puede encontrar desarrollos multiplataforma, como es el caso de Java, el cual es un lenguaje interpretado y para cada sistema operativo, tiene su traductor, que en este caso es la JVM. Para el caso #[i mobile], también existen diferentes #[i frameworks], aunque estos por lo general se basan en visores #[i web], es decir, el desarrollo es totalmente #[i web], pero con funcionalidades nativas, tales como el caso de Xamarin, Apache cordoba, ionic2, React Native, entre otros.
-    .row.bg-c18(data-aos="fade-down")
+    .row.bg-c18.mb-4(data-aos="fade-down")
       .col-12
         .p-5
           .row.align-items-center
@@ -25,6 +25,16 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema4/img1.svg', style="width: 380px" ,alt='').m-auto
+    .row.align-items-center.mb-4
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/tema4/img8.png', style="width: 380px" ,alt='').m-auto
+      .col-lg-8(data-aos="fade-left")
+        p Desde el inicio de la tendencia de desarrollo de aplicaciones single page, aproximadamente en el 2010, con el surgimiento de Android y a su vez de #[i frameworks] como apache cordoba, jquery mobile entre otros, comenzó la carrera por desarrollar un framework que permitiera sentir la misma experiencia de desarrollar de
+        p forma nativa, para la web, en este caso para el front, teniendo en cuenta que al mismo tiempo iniciaba la tendencia de desarrollar aplicaciones cliente-servidor, la cual consiste en separar todo el nivel de acceso, con el nivel de negocio, y separando las tecnologías.
+        .cajon.color-primario.p-4
+          p.mb-0 Surgen #[i frameworks] como Backbone.js, Sencha.js, Angular.Js, Bootstrap css, y a su vez más y más componentes jQuery para optimizar el proceso de desarrollo. Cada uno de estos componentes era sencillo y fácil de implementar, pero a su vez no ofrecía al usuario una forma estándar de implementar las aplicaciones, otro aspecto es que era tedioso el tener que agregar en cada vista los componentes externos para incluir las funcionalidades. Esto fue evolucionando y a la medida que empresas como Facebook, Twitter, Google, Microsoft con sus redes sociales entre otros productos, comenzaron a requerir funcionalidades más complejas iniciaron a promover otros #[i frameworks] y formas de trabajo para la web. En el cual surgieron Angular2, React Js, Vue Js, entre otros, siendo estos los más populares en la actualidad.
+    p.mb-0(data-aos="fade-right") Estos nuevos #[i frameworks] se caracterizan por presentar una arquitectura MVC o MVVM, con un cantidad considerable de módulos y funcionalidades predeterminadas, módulos de conexión, seguridad, reactividad, entre otros; también es de notar que estos #[i frameworks] son compilados, dado que por ejemplo en el caso de Angular, está diseñado con TypeScript y para poder ser ejecutando en el navegador debe pasar toda su funcionalidad a JavaScript, permitiendo también de esta forma validar desde la compilación errores de codificación o lógica.
     Separador
     #t_4_1
     .titulo-segundo.color-acento-botones
@@ -108,7 +118,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 #[b Teniendo en cuenta lo anterior, crear un proyecto tipo mockup en la siguiente herramienta: https://balsamiq.cloud/]
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://balsamiq.cloud/" target="_blank")
                     span(style="color: #12263F !important") Ver enlace
                     i.fas.fa-link(style="color: #12263F !important")
     TabsA.color-acento-contenido.mb-5(data-aos="fade-down")
@@ -144,10 +154,10 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Introducción al front-end
-    p(data-aos="fade-right") El front-end hace parte del desarrollo web, en el cual se construye todos los componentes que están de cara al usuario, es decir todo lo visual y relacionado a la interacción de usuario, en otras palabras, lo que también se conoce como el diseño web. Esto tiene en cuenta el contenido, la diagramación, colores, tipografía, elementos gráficos de control, tamaños de letra, color de letra, flujos, navegación, experiencia, usabilidad, entre otros.
+    p(data-aos="fade-right") El #[i front-end] hace parte del desarrollo web, en el cual se construye todos los componentes que están de cara al usuario, es decir todo lo visual y relacionado a la interacción de usuario, en otras palabras, lo que también se conoce como el diseño web. Esto tiene en cuenta el contenido, la diagramación, colores, tipografía, elementos gráficos de control, tamaños de letra, color de letra, flujos, navegación, experiencia, usabilidad, entre otros.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Para la construcción de un sitio web, se requieren de diferentes elementos y tecnologías, y hablando solamente del front-end, es requerido identificar que no se puede tener un componente sin vincular las tecnologías de html, css y javascript, las cuales en conjunto determinan el front.
+        p Para la construcción de un sitio web, se requieren de diferentes elementos y tecnologías, y hablando solamente del #[i front-end], es requerido identificar que no se puede tener un componente sin vincular las tecnologías de html, css y javascript, las cuales en conjunto determinan el front.
         p.mb-0 El html determina la estructura, las bases del diseño web; el css otorga forma, contextura, agrega valores a las propiedades de los elementos, es decir, es la tecnología que permite dar un look and feel al sitio web; mientras que JavaScript, es la tecnología que permite dar funcionalidad al sitio; si no existiera alguno de los 3 en la construcción de un sitio web, sería casi imposible su óptimo desarrollo.
       .col-lg-4(data-aos="fade-left")
         figure
@@ -181,7 +191,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 TypeScript
-    p.mb-5(data-aos="fade-right") TypeScript es un super conjunto de JavaScript, el cual compila en JavaScript, es decir su código fuente se escribe en Ts y luego se convierte en Js para ser interpretado. Esto se realiza automáticamente dependiente de la herramienta de pre-compilación ya sea en el frontend o el backend. Se debe recordar que el navegador web solo puede interpretar archivos JavaScript (ver figura 28).
+    p.mb-5(data-aos="fade-right") #[i TypeScript] es un super conjunto de JavaScript, el cual compila en JavaScript, es decir su código fuente se escribe en Ts y luego se convierte en Js para ser interpretado. Esto se realiza automáticamente dependiente de la herramienta de pre-compilación ya sea en el frontend o el backend. Se debe recordar que el navegador web solo puede interpretar archivos JavaScript (ver figura 28).
     .row.mb-5
       .col-12.bg-c20.p-4.p-lg-0
         .row.align-items-center
@@ -266,7 +276,7 @@
         figure
           img(src='@/assets/curso/tema4/img7.svg', style="width: 70px" ,alt='').m-auto
       .col
-        p.mb-0 Es un framework para el desarrollo de aplicaciones web del lado del cliente, que está desarrollado en TypeScript, es de código abierto y el propietario es Google. Es uno de los frameworks más conocidos y populares en la actualidad, al estar desarrollado en TypeScript, permite hacer uso y aplicación de conceptos de programación orientada a objetos.
+        p.mb-0 Es un #[i framework] para el desarrollo de aplicaciones web del lado del cliente, que está desarrollado en #[i TypeScript], es de código abierto y el propietario es Google. Es uno de los #[i frameworks] más conocidos y populares en la actualidad, al estar desarrollado en #[i TypeScript], permite hacer uso y aplicación de conceptos de programación orientada a objetos.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -280,7 +290,7 @@
         figure
           img(src='@/assets/curso/tema4/img8.svg', style="width: 70px" ,alt='').m-auto
       .col
-        p.mb-0 Es un framework para el desarrollo de aplicaciones web del lado del cliente, directamente desarrollado en JavaScript, cuenta con una arquitectura declarativa y por composición de componentes. El framework está centrado en la construcción de la interacción de la vista, enrutamiento, construcción, gestión de estados, entre otras.
+        p.mb-0 Es un #[i framework] para el desarrollo de aplicaciones web del lado del cliente, directamente desarrollado en JavaScript, cuenta con una arquitectura declarativa y por composición de componentes. El #[i framework] está centrado en la construcción de la interacción de la vista, enrutamiento, construcción, gestión de estados, entre otras.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -294,7 +304,7 @@
         figure
           img(src='@/assets/curso/tema4/img9.svg', style="width: 70px" ,alt='').m-auto
       .col
-        p.mb-0 Es un framework para el desarrollo de aplicaciones web del lado del cliente, al igual que Angular Y VueJs, este está desarrollado directamente en JavaScript y es mantenido por Facebook, es de licencia libre, busca implementar una arquitectura MVC o MVVM.
+        p.mb-0 Es un #[i framework] para el desarrollo de aplicaciones web del lado del cliente, al igual que Angular Y VueJs, este está desarrollado directamente en JavaScript y es mantenido por Facebook, es de licencia libre, busca implementar una arquitectura MVC o MVVM.
 
 </template>
 

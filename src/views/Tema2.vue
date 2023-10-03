@@ -8,7 +8,7 @@
       h1 Poo y estructuras de control
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p La POO (programación orientada a objetos) es un paradigma de programación, que pretende solucionar problemas informáticos, realizando la abstracción de las funcionalidades en clases y objetos. Es importante recordar que las clases son una estructura que establece las propiedades y comportamientos, por medio de atributos y métodos, mientras que los objetos son una instancia de lo definido en la clase, dicho de otra manera, la clase es una plantilla y el objeto es una referencia concreta tomada de la plantilla.
+        p La Poo (programación orientada a objetos) es un paradigma de programación, que pretende solucionar problemas informáticos, realizando la abstracción de las funcionalidades en clases y objetos. Es importante recordar que las clases son una estructura que establece las propiedades y comportamientos, por medio de atributos y métodos, mientras que los objetos son una instancia de lo definido en la clase, dicho de otra manera, la clase es una plantilla y el objeto es una referencia concreta tomada de la plantilla.
         p.mb-0 ¿Cómo se realiza? Observar a continuación:
       .col-lg-4(data-aos="fade-left")
         figure
@@ -18,7 +18,7 @@
         figure
           img(src='@/assets/curso/tema2/img1.svg', alt='')
       .tarjeta.color-primario1.p-3(x="12%" y="100%" numero="1")
-        p Comencemos creando una clase con un constructor y pasando como argumento el valor de una propiedad, ver figura Función constructora en JavaScript .  En este caso se crea una función constructora para la estructura la cual recibe el argumento de nombre.
+        p Comencemos creando una clase con un constructor y pasando como argumento el valor de una propiedad, ver figura función constructora en JavaScript. En este caso se crea una función constructora para la estructura la cual recibe el argumento de nombre.
       .tarjeta.color-primario2.p-3(x="37.4%" y="100%" numero="2")
         p También se puede observar como el procedimiento de saludar, el cual al ser ejecutado lanza una alerta haciendo uso de la propiedad nombre.
       .tarjeta.color-primario3.p-3(x="62.8%" y="100%" numero="3")
@@ -97,7 +97,7 @@
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
               p #[b.text-white Observa los elementos de la estructura secuencial.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/Ujk0Ej32Reg?si=HDO6DIzFTLSGNRWj" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     Separador
@@ -170,7 +170,7 @@
           .col-lg-4.mb-4.mb-lg-0
             p #[b Condicional doble o compuesta, if – else if – else]
             p Es posible que en la vida cotidiana se nos presente una opción u otra, por decirlo así podemos ir por x o y camino, es importante entender que en este caso no será posible ejecutar las acciones de las dos ramas, si pasa el suceso de verdadero solo se ejecutará las acciones determinadas cuando pasa ese suceso o viceversa si es falso solo se ejecutarán las acciones definidas por esa opción.  
-            p.mb-0 Por ejemplo, se ingresa 2 números y se quiere saber si el primero es mayor que el segundo, o lo contrario. Ver figura Condicional doble.
+            p.mb-0 Por ejemplo, se ingresa 2 números y se quiere saber si el primero es mayor que el segundo, o lo contrario. Ver figura condicional doble.
           .col-lg-6
             pre
               code.language-html
@@ -257,7 +257,7 @@
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             p #[b Condicional doble o compuesta, if – else if – else]
-            p En el ejemplo anterior, relacionado con cuál de los dos números ingresados el programa solo podrá decir que el primero o el segundo es mayor, pero el programa como tal tiene una falla, dado que hay una posibilidad adicional, la cual consiste en que puede que el numero 1 no es mayor que el número 2, y que el numero 2 es mayor al número 1, es decir que los dos números son iguales.
+            p En el ejemplo anterior, relacionado con cuál de los dos números ingresados el programa solo podrá decir que el primero o el segundo es mayor, pero el programa como tal tiene una falla, dado que hay una posibilidad adicional, la cual consiste en que puede que el número 1 no es mayor que el número 2, y que el número 2 es mayor al número 1, es decir que los dos números son iguales.
           .col-lg-6
             pre
               code.language-html
@@ -286,7 +286,7 @@
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             p #[b Condicional doble o compuesta, if – else if – else]
-            p En este caso es posible que la estructura if nos brinde el soporte para poder realizar una siguiente evaluación condicional, tal como lo veremos en la figura Condicional con múltiples condiciones. ero o el segundo es mayor, pero el programa como tal tiene una falla, dado que hay una posibilidad adicional, la cual consiste en que puede que el numero 1 no es mayor que el número 2, y que el numero 2 es mayor al número 1, es decir que los dos números son iguales.
+            p En este caso es posible que la estructura if nos brinde el soporte para poder realizar una siguiente evaluación condicional, tal como lo veremos en la figura condicional con múltiples condiciones.
           .col-lg-6
             pre
               code.language-html
@@ -335,7 +335,7 @@
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             p #[b Condicional doble o compuesta, if – else if – else]
-            p Podemos deducir que la estructura #[b #[i else]] llega a convertirse en el bloque por defecto, llegado el caso que la estructura condicional no tenga un condicional que se llegase a ejecutar como afirmativo, es decir si no hay una condición que se cumpla. Esta estructura permite hacer la evaluación de infinida de condiciones, sin importar la cantidad, es recomendado no presentar ambigüedades, también recordar que la ejecución de las condiciones es secuencial, si se llegase a ejecutar por decirlo así la primera condición, el flujo del algoritmo seguiría al finalizar toda la estructura condicional, es decir al finalizar el #[b #[i else]] sin llegar a ejecutar su lógica o bloque de código. 
+            p Podemos deducir que la estructura #[b #[i else]] llega a convertirse en el bloque por defecto, llegado el caso que la estructura condicional no tenga un condicional que se llegase a ejecutar como afirmativo, es decir, si no hay una condición que se cumpla. Esta estructura permite hacer la evaluación de infinida de condiciones, sin importar la cantidad, es recomendado no presentar ambigüedades, también recordar que la ejecución de las condiciones es secuencial, si se llegase a ejecutar por decirlo así la primera condición, el flujo del algoritmo seguiría al finalizar toda la estructura condicional, es decir al finalizar el #[b #[i else]] sin llegar a ejecutar su lógica o bloque de código. 
           .col-lg-6
             figure
               img(src='@/assets/curso/tema2/img4.png', style="width: 550px" ,alt='').m-auto
@@ -348,7 +348,7 @@
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
               p #[b.text-white Ten en cuenta para las condicionales la siguiente información.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/zefoFN81By8?si=6ztNC90wWztIaDO8" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     .row.mb-4(data-aos="fade-right")
@@ -407,7 +407,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img5.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Suponiendo que se tiene una super tienda en la cual venden confitería y prendas de vestir, en el cual tienen apartados para las personas de cualquier tipo de edad, esta tienda quiere saber si quien realiza la compra en su tienda es menor o mayor de edad, dado eso ofrecerá unos beneficios de acuerdo con su edad. Dado que sean menores de edad realizará una bonificación o descuento, si el cliente es menor de edad el beneficio se aplica si se realiza la compra de pastel o helado; por otro lado, si se es mayor de edad, se requiere validar la identidad de género del cliente y con ello aplicar una serie de descuentos de acuerdo con la clasificación.
+            p.mb-0 Suponiendo que se tiene una supertienda en la cual venden confitería y prendas de vestir, en el cual tienen apartados para las personas de cualquier tipo de edad, esta tienda quiere saber si quien realiza la compra en su tienda es menor o mayor de edad, dado eso ofrecerá unos beneficios de acuerdo con su edad. Dado que sean menores de edad realizará una bonificación o descuento, si el cliente es menor de edad el beneficio se aplica si se realiza la compra de pastel o helado; por otro lado, si se es mayor de edad, se requiere validar la identidad de género del cliente y con ello aplicar una serie de descuentos de acuerdo con la clasificación.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 En la figura 14 se puede observar que hay un condicional que realiza la primera evaluación la cual consiste en saber si el valor de la edad es menor a 18, en el bloque de verdadero se realiza un condicional anidado lo cual evalúa si el usuario seleccionó helado o pastel; por otro lado, en el bloque del sino del condicional principal se realiza la validación de identidad de género, masculino, femenino u otro, lo cual lleva a una serie de descuentos. Si se analiza, los condicionales internos o anidados se pretende evaluar unas condiciones que no son compatibles con la condición de la estructura condicional principal y dada la naturaleza clasificatoria de la misma se requiere de las estructuras internas para realizar una segunda validación póstuma a la clasificación inicial, se puede observar cómo se presenta para estructura switch y las clases.
@@ -422,7 +422,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
           .row(titulo="Estructura switch")
             .col-12
-              p Es una alternativa al condicional, aunque una de sus principales diferencias es que su estructura de validación no hace uso de una sentencia condicional, del tipo mayor que, menor que, etc., solo si el valor de la variable coincide con un valor en específico que por lo general es una constante o un valor literal. Por ejemplo, ver figura Estructura switch.
+              p Es una alternativa al condicional, aunque una de sus principales diferencias es que su estructura de validación no hace uso de una sentencia condicional, del tipo mayor que, menor que, etc., solo si el valor de la variable coincide con un valor en específico que por lo general es una constante o un valor literal. Por ejemplo, ver figura estructura switch.
               a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                 span Estructura switch
                 .indicador--click(v-if="mostrarIndicador")
@@ -472,7 +472,7 @@
                           | &lt;/html&gt;
           .row(titulo="Estructura switch")
             .col-12
-              p Se puede observar que a diferencia al condicional #[b #[i if]], se usa la palabra reservada #[b #[i switch]], el cual cumple una función similar, seguido de la variable que se va a evaluar, la evaluación consiste en validar si su valor corresponde a alguno de los cases definidos en el interior de la estructura.  Por último se tiene el caso default, que cumpliría una función similar al else, el cual es que, si no se aplica ninguno de los casos definidos en el bloque de control, se ejecuta ese bloque por defecto. Es recomendado tener en cuenta que los cases no son bloques independientes, por lo cual para salir de la opción utilizan la palabra reservada #[b #[i break]], si esta palabra no es usada saltara a la siguiente instrucción de los cases definidos sin realizar la validación.
+              p Se puede observar que a diferencia al condicional #[b #[i if]], se usa la palabra reservada #[b #[i switch]], el cual cumple una función similar, seguido de la variable que se va a evaluar, la evaluación consiste en validar si su valor corresponde a alguno de los cases definidos en el interior de la estructura. Por último se tiene el caso #[i default], que cumpliría una función similar al else, el cual es que, si no se aplica ninguno de los casos definidos en el bloque de control, se ejecuta ese bloque por defecto. Es recomendado tener en cuenta que los cases no son bloques independientes, por lo cual para salir de la opción utilizan la palabra reservada #[b #[i break]], si esta palabra no es usada saltara a la siguiente instrucción de los cases definidos sin realizar la validación.
               a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                 span Estructura switch
                 .indicador--click(v-if="mostrarIndicador")
@@ -523,7 +523,7 @@
           .row(titulo="Clase")
             .col-12
               p Fueron incluidas en 2015, con la finalidad de mejorar la sintaxis basada en la herencia orientada a prototipos, pero no representa una mejora en la misma, solo de manera estructura y la facilidad para realizar herencias.
-              p La forma para definir una clase en JavaScript es por medio de las estructuras especializadas similares a los de otros lenguajes y es la estructura class, ver figura Modo estricto de clase en JavaScript
+              p La forma para definir una clase en JavaScript es por medio de las estructuras especializadas similares a los de otros lenguajes y es la estructura #[i class], ver figura modo estricto de clase en JavaScript
               a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
                 span Modo estricto de clase en JavaScript
                 .indicador--click(v-if="mostrarIndicador")
@@ -563,8 +563,8 @@
           .row(titulo="Clase")
             .col-12
               p La estructura definida en la anterior figura denota el modo estricto, el cual permite mejora el rendimiento al momento de renderizarse, contiene un constructor, dos atributos, alto y ancho, y dos métodos. 
-              p Una particularidad de POO y de las clases es la herencia, y con este tipo de estructuras es posible que, desde JavaScript, se pueda definir clases que hereden la abstracción de clases padres, de la misma manera podemos observar otra característica de este paradigma y es la sobrecarga de herencia. 
-              p Para obtener una herencia, se hace uso de la palabra reservada extends, tal como A extends B, denotando de esta manera que la clase A hereda o es una clase hija de la clase B.
+              p Una particularidad de Poo y de las clases es la herencia, y con este tipo de estructuras es posible que, desde JavaScript, se pueda definir clases que hereden la abstracción de clases padres, de la misma manera podemos observar otra característica de este paradigma y es la sobrecarga de herencia. 
+              p Para obtener una herencia, se hace uso de la palabra reservada #[i extends], tal como #[i A extends B], denotando de esta manera que la clase A hereda o es una clase hija de la clase B.
               a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                 span Modo estricto de clase en JavaScript
                 .indicador--click(v-if="mostrarIndicador")
@@ -601,7 +601,7 @@
                           |     &lt;/script&gt;
                           |   &lt;/body&gt;
                           | &lt;/html&gt;
-    p(data-aos="fade-right") Por otro lado, la sobreescritura consiste en reescribir un método, por ejemplo, haciendo la abstracción de los seres vivos, hacemos ruido, los perros ladran, los pájaros cantan, los humanos hablan, etc., si tenemos un método en la clase A tal como hacerRuido, y en la clase B un método igual hacerRuido, esto genera una sobreescritura, prevaleciendo el método de la clase más especializada, es decir, la última clase definida.
+    p(data-aos="fade-right") Por otro lado, la sobreescritura consiste en reescribir un método, por ejemplo, haciendo la abstracción de los seres vivos, hacemos ruido, los perros ladran, los pájaros cantan, los humanos hablan, etc., si tenemos un método en la clase A tal como #[i hacerRuido], y en la clase B un método igual #[i hacerRuido], esto genera una sobreescritura, prevaleciendo el método de la clase más especializada, es decir, la última clase definida.
     p.mb-5(data-aos="fade-right") Para aclarar los puntos dichos previamente analizar y ver la figura 15.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 15]. Herencia y sobreescritura
@@ -648,7 +648,7 @@
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
               p #[b.text-white Observa aspectos desde la estructura switch.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/bsnRjlbU5c4?si=YAGe7--o-D9VhN7o" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     Separador
@@ -661,22 +661,22 @@
         .p-4
           figure.mb-4
             img(src='@/assets/curso/tema2/img7.png', style="width: 550px" ,alt='').m-auto
-          p.text-center #[b Bloque #[i setTimeout]]
+          p.text-center #[b Bloque setTimeout]
           p Es una función que está determinada para pausar o retrasar la ejecución de una funcionalidad dependiendo de la cantidad de tiempo definida, esta función recibe 2 parámetros, uno de ellos es el tiempo de ejecución y debe estar expresado en milisegundos, el otro es una función, donde esta especificada las sentencias, ver Función setTimeout.
-          p Como se puede observar, tomará 3 segundos para que se ejecute la función llamada funcionConRetraso, y esto pasará solo una vez.
+          p Como se puede observar, tomará 3 segundos para que se ejecute la función llamada #[i funcionConRetraso], y esto pasará solo una vez.
           .row
             .col-auto.bg-c15.px-3.py-2
-              p.mb-0 #[b #[i SetTimeout]]
+              p.mb-0 #[b i SetTimeout]
       .col-md-10.col-lg.bg-c16.m-2
         .p-4
           figure.mb-4
             img(src='@/assets/curso/tema2/img8.png', style="width: 550px" ,alt='').m-auto
-          p.text-center #[b Bloque #[i setInterval]]
+          p.text-center #[b Bloque setInterval]
           p Es una función que está determinada para repetir una funcionalidad en un rango de tiempo definida, esta función recibe 2 parámetros, uno de ellos es el tiempo de ejecución y debe estar expresado en milisegundos, el otro es una función, donde esta especificada las sentencias, ver figura Función setInterval.
-          p Como se puede observar, cada 3 segundos se ejecutará la función llamada funcionQueSeRepite, y esto pasará x cantidad de veces hasta que no se detenga el proceso del intervalo.
+          p Como se puede observar, cada 3 segundos se ejecutará la función llamada #[i funcionQueSeRepite], y esto pasará x cantidad de veces hasta que no se detenga el proceso del intervalo.
           .row
             .col-auto.bg-c15.px-3.py-2
-              p.mb-0 #[b #[i SetInterval]]
+              p.mb-0 #[b SetInterval]
     .row(data-aos="fade-left")
       .col-md-auto.mb-4.mb-md-0
         figure
@@ -699,7 +699,7 @@
         .row.mb-3
           .col-12
             img(src='@/assets/curso/tema2/img10.png' alt='AvatarTop')
-        p El paradigma procedimental, hace referencia a la definición de bloques de código globales que pueden ser ejecutados en cualquier parte del desarrollo, es decir la construcción de funciones y procedimientos genéricos que se pueden reutilizar tomando como base el negocio y los dominios del problema que se pretende solucionar.
+        p El paradigma procedimental, hace referencia a la definición de bloques de código globales que pueden ser ejecutados en cualquier parte del desarrollo, es decir, la construcción de funciones y procedimientos genéricos que se pueden reutilizar tomando como base el negocio y los dominios del problema que se pretende solucionar.
       .tarjeta.color-acento-botones1.p-4
         .row.mb-3
           .col-12
@@ -727,7 +727,7 @@
       h2 2.4. Ciclos
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Hasta el momento se han empleado estructuras secuenciales y condicionales, pero, existen otro tipo de estructuras tales como son los ciclos, o las estructuras repetitivas. Estas estructuras permiten ejecutar repetidamente una cantidad de veces necesarias de un bloque de código sin necesidad de escribir de nuevo su código.
+        p Hasta el momento se han empleado estructuras secuenciales y condicionales, pero, existen otro tipo de estructuras, tales como son los ciclos, o las estructuras repetitivas. Estas estructuras permiten ejecutar repetidamente una cantidad de veces necesarias de un bloque de código sin necesidad de escribir de nuevo su código.
         p Este tipo de estructuras se caracteriza por tener las siguientes características:
         ul.lista-ul.mb-0
           li.d-flex
@@ -754,7 +754,7 @@
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
               p #[b.text-white Observa aspectos que se deben considerar en los ciclos.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/YRPvdpLNH5g?si=7LGe07Eat1w9pP5a" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     .row.mb-4(data-aos="fade-down")
@@ -770,7 +770,7 @@
         figure
           img(src='@/assets/curso/tema2/img15.png', style="width: 450px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 Esta estructura presenta una condición similar al del condicional if, el cual evalúa las condiciones iniciales para dejar ingresar al ciclo, dado que la condición sea verdadera se ingresara al ciclo, en el interior de la estructura se debe garantizar que se realice el cambio de valor de la variable de control del condicional, dado que si este valor nunca cambia y la evaluación de la condición es igual al requerido para ingresar esto generará un ciclo infinito, o como también es conocido un bucle infinito, este tipo de estados es crítico, dado que al dejar un ciclo infinito que consume x cantidad de recursos permitirá que la memoria del programa o en el peor de los casos de la máquina colapsen y lleguen las famosas pantallas azules.
+        p.mb-0 Esta estructura presenta una condición similar al del condicional #[i if], el cual evalúa las condiciones iniciales para dejar ingresar al ciclo, dado que la condición sea verdadera se ingresara al ciclo, en el interior de la estructura se debe garantizar que se realice el cambio de valor de la variable de control del condicional, dado que si este valor nunca cambia y la evaluación de la condición es igual al requerido para ingresar esto generará un ciclo infinito, o como también es conocido un bucle infinito, este tipo de estados es crítico, dado que al dejar un ciclo infinito que consume x cantidad de recursos permitirá que la memoria del programa o en el peor de los casos de la máquina colapsen y lleguen las famosas pantallas azules.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 16]. While infinito
     .row.mb-5
@@ -797,7 +797,7 @@
                   |   &lt;/body&gt;
                   | &lt;/html&gt;
             .col-lg-5(data-aos="fade-left")
-              p.mb-0 En la figura 16 se puede observar la palabra reservada while, seguido de paréntesis y una expresión relacional, la cual pregunta si la variable contadora es menor que 10. Cuando se ejecuta la lógica el valor de la variable es 0 por lo cual esa sentencia devolverá el valor de verdadero, por lo cual entrará al cuerpo del ciclo, en las instrucciones del ciclo se captura un número cada vez que pasa por una iteración y posteriormente se realiza una sumatoria, esta sumatoria se imprimirá apenas se salga del ciclo. Es importante recordar que cuando el flujo llegue la llave que cierra el ciclo él se devolverá a la parte superior del ciclo y volverá a preguntar por la sentencia establecida, en este caso como en el cuerpo del ciclo la variable contadora no cambio, es decir su valor sigue siendo 0, el resultado de esa pregunta será verdadero ingresando nuevamente al ciclo, así de esta manera de forma infinita.
+              p.mb-0 En la figura 16 se puede observar la palabra reservada #[i while], seguido de paréntesis y una expresión relacional, la cual pregunta si la variable #[i contadora] es menor que 10. Cuando se ejecuta la lógica el valor de la variable es 0 por lo cual esa sentencia devolverá el valor de verdadero, por lo cual entrará al cuerpo del ciclo, en las instrucciones del ciclo se captura un número cada vez que pasa por una iteración y posteriormente se realiza una sumatoria, esta sumatoria se imprimirá apenas se salga del ciclo. Es importante recordar que cuando el flujo llegue la llave que cierra el ciclo él se devolverá a la parte superior del ciclo y volverá a preguntar por la sentencia establecida, en este caso como en el cuerpo del ciclo la variable #[i contadora] no cambio, es decir su valor sigue siendo 0, el resultado de esa pregunta será verdadero ingresando nuevamente al ciclo, así de esta manera de forma infinita.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 17]. While con iteraciones definidas
     .row.mb-5
@@ -825,8 +825,8 @@
                   |   &lt;/body&gt;
                   | &lt;/html&gt;
             .col-lg-5(data-aos="fade-left")
-              p En la figura 17 se realiza un cambio en la lógica del código expuesto, el cual consiste en realizar un cambio de valor de variable, de la variable de control de la sentencia condicional del ciclo, por lo cual, el valor de esta variable se modificará de tal manera que cada vez que pase por el ciclo se le añada una unidad, es decir que cuando salga de la primera iteración su valor no será 0, si no 1, y para la siguiente iteración será 2, y así sucesivamente, por lo que en algún momento su valor llegara a 10, en ese caso al realizar la evaluación de
-              p.mb-0 preguntar si 10 es menor que 10, el resultado de la sentencia será falso y se saldrá del ciclo, al salir del ciclo la sentencia que está por fuera, imprimirá el acumulado de los números ingresados por el usuario.
+              p En la figura 17 se realiza un cambio en la lógica del código expuesto, el cual consiste en realizar un cambio de valor de variable, de la variable de control de la sentencia condicional del ciclo, por lo cual, el valor de esta variable se modificará de tal manera que cada vez que pase por el ciclo se le añada una unidad, es decir que cuando salga de la primera iteración su valor no será 0, si no 1, y para la siguiente iteración será 2, y así sucesivamente, por lo que en algún momento su valor llegará a 10, en ese caso al realizar la evaluación de
+              p.mb-0 Preguntar si 10 es menor que 10, el resultado de la sentencia será falso y se saldrá del ciclo, al salir del ciclo la sentencia que está por fuera, imprimirá el acumulado de los números ingresados por el usuario.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -835,6 +835,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Ciclo do-while
+    p.mb-5(data-aos="fade-left") Esta estructura repetitiva a diferencia que el #[i while], se ejecutará al menos una vez, se debe recordar que, si en el #[i while] la variable de control no cumple con la condición para que la sentencia devuelva un valor lógico verdadero, no ingresará a la estructura, mientras que en la estructura #[i do-while], esto no será impedimento para ingresar, pero si para continuar en el ciclo, esto se debe a que la evaluación en el #[i do-while] se realiza al finalizar la estructura y al inicio tal como en el while, ver figura 18.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Figura 18]. Ciclo do-while
     .row.mb-5
@@ -868,7 +869,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Ciclo for
-    p.mb-5(data-aos="fade-right") La estructura for es una estructura más sencilla que regularmente es usada para ejecutar problemas relacionados a ciclos iterativos numéricos, aunque el while y el do-while también lo pueden realizar, esta estructura tiene los elementos incorporados para realizar el proceso más sencillo. La estructura del for contiene en tres subestructuras o argumentos, las cuales son el iniciador de la variable de control, la condición de la variable de control y el incremento/decremento o modificación de la variable de control; su uso es aplicado cuando se conoce el valor de las iteraciones ya sea porque se obtiene de una constante, de una variable o de un valor literal, ver figura 19.
+    p.mb-5(data-aos="fade-right") La estructura #[i for] es una estructura más sencilla que regularmente es usada para ejecutar problemas relacionados a ciclos iterativos numéricos, aunque el #[i while] y el #[i do-while] también lo pueden realizar, esta estructura tiene los elementos incorporados para realizar el proceso más sencillo. La estructura del for contiene en tres subestructuras o argumentos, las cuales son el iniciador de la variable de control, la condición de la variable de control y el incremento/decremento o modificación de la variable de control; su uso es aplicado cuando se conoce el valor de las iteraciones ya sea porque se obtiene de una constante, de una variable o de un valor literal, ver figura 19.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 19]. Ciclo For, con 10 iteraciones fijas
     .row.mb-5
@@ -948,7 +949,7 @@
         figure
           img(src='@/assets/curso/tema2/img6.svg', style="width: 300px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p Son estructuras que permiten modelar datos que pueden heredar características entre sí similares a las clases en lenguajes altamente tipados como Java, es decir son estructuras que representan la tipología para la agrupación de información, compuesta de atributos, constructores y métodos. Tal como una función, se puede declarar un prototipo, el cual para posteriormente permitirá utilizar un constructor para establecer una instancia tal como lo muestra la figura 21.
+        p Son estructuras que permiten modelar datos que pueden heredar características entre sí similares a las clases en lenguajes altamente tipados como Java, es decir, son estructuras que representan la tipología para la agrupación de información, compuesta de atributos, constructores y métodos. Tal como una función, se puede declarar un prototipo, el cual para posteriormente permitirá utilizar un constructor para establecer una instancia, tal como lo muestra la figura 21.
         p.mb-0 Como previamente se comentó, desde el 2015 se incorporaron las clases al lenguaje de JavaScript y con ello características propias de la POO, pero antes de esto se hacía uso de los prototipos que eran la forma como JavaScript podía heredar funcionalidades de otro objeto.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 21]. Prototipo JavaScript
@@ -1012,7 +1013,7 @@
                   |     &lt;/script&gt;
                   |   &lt;/body&gt;
                   | &lt;/html&gt;
-    p.mb-0(data-aos="fade-right") En la anterior figura se puede observar, que en la parte inicial del script se define una función de retorno denominada sumar, la cual recibe 5 parámetros presuntamente numéricos y que la función devuelve la suma de esos 5 argumentos. En la parte inferior del script se puede evidenciar 3 llamados a la función sumar, pasando en cada llamado valores dientes, por lo que el retorno en cada llamado será diferente.
+    p.mb-0(data-aos="fade-right") En la anterior figura se puede observar, que en la parte inicial del script se define una función de retorno denominada #[i sumar], la cual recibe 5 parámetros presuntamente numéricos y que la función devuelve la suma de esos 5 argumentos. En la parte inferior del script se puede evidenciar 3 llamados a la función #[i sumar], pasando en cada llamado valores dientes, por lo que el retorno en cada llamado será diferente.
 
 </template>
 

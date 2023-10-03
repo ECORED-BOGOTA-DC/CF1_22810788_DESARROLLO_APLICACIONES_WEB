@@ -57,7 +57,7 @@
             .h2 5
           h4 Java
           p.mb-0 Spring MVC, Spring Boot, Spark, entre otros.
-    p.mb-0(data-aos="fade-right") Para definir qué lenguaje y framework usar, es ideal qué tipo de proyecto y con base a qué arquitectura se delineará, dado que no es igual una aplicación monolítica a una orientada a microservicios, aunque tampoco será igual, implementar un componente en Java donde se necesitaran más recursos de ejecución que en NodeJs que presenta un estilo más liviano para los servidores.
+    p.mb-0(data-aos="fade-right") Para definir qué lenguaje y #[i framework] usar, es ideal qué tipo de proyecto y con base a qué arquitectura se delineará, dado que no es igual una aplicación monolítica a una orientada a microservicios, aunque tampoco será igual, implementar un componente en Java donde se necesitaran más recursos de ejecución que en NodeJs que presenta un estilo más liviano para los servidores.
     Separador
     #t_3_2
     .titulo-segundo.color-acento-botones

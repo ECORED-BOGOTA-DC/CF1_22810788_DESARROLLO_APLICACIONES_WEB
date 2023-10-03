@@ -11,11 +11,10 @@
         .px-5.pt-5
           .row.mb-5(data-aos="fade-right")
             .col-12
-              p Para reconocer cuáles son los fundamentos de JavaScript, se parte de lo siguiente.
-              p.mb-0 Así mismo, observa los siguientes elementos que complementan lo abordado para dar inicio del componente formativo.
+              p.mb-0 Para reconocer cuáles son los fundamentos de JavaScript, se parte de lo siguiente.
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/dFhY6TOMRhY?si=p9wTqzSSTuXycwe_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_1
     .titulo-segundo.color-acento-botones
@@ -91,7 +90,7 @@
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
               p #[b.text-white Además, visualiza la información que amplia de la sintaxis y variables.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/Tk8gEEmh3Xo?si=LWW-_SMmSVBhXU7n" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     .row.mb-4(data-aos="fade-right")
@@ -106,7 +105,7 @@
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p Son identificadores de memoria o contenedores que permiten almacenar valores, para poder hacer uso de estos en el lenguaje de JavaScript primero se deben declarar y asignar un nombre, para posteriormente hacer uso de estos
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 #[b Los identificadores hacen referencia a las constantes o variables que son requeridas para el control de un flujo. Como se mencionó previamente JavaScript es un lenguaje no tipado, por lo cual para realizar una declaración de identificador de memoria este no estará atado a un tipo de dato en específico, tal como sucede en otro lenguaje altamente tipados como Java, C, C++, C#.]
+          p.mb-0 #[b Los identificadores hacen referencia a las constantes o variables que son requeridas para el control de un flujo. Como se mencionó previamente, JavaScript es un lenguaje no tipado, por lo cual para realizar una declaración de identificador de memoria este no estará atado a un tipo de dato en específico, tal como sucede en otro lenguaje altamente tipados como Java, C, C++, C#.]
         p.mb-0 Por el contrario, al realizar una declaración solo se establece el espacio de memoria y al realizar la asignación automáticamente ese identificador tomará la especificación del dato asignado.
       .col-lg-4(data-aos="fade-left")
         figure
@@ -215,13 +214,13 @@
             h3.mb-0 Conceptos básicos
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Entre los conceptos básicos, se puede resaltar que JavaScript es un lenguaje que no tiene distinción entre mayúsculas y minúsculas, por lo cual, si se realiza la definición de una variable en mayúsculas o minúsculas esto hará referencia al mismo identificador de memoria, en otras palabras y dicho de forma técnica es un lenguaje #[b case-sensitive]. También es importante recordar que se debe hacer uso de un sistema de caracteres #[b Unicode] por lo que no es correcto utilizar caracteres especiales para definir identificaciones de memoria.
+        p Entre los conceptos básicos, se puede resaltar que JavaScript es un lenguaje que no tiene distinción entre mayúsculas y minúsculas, por lo cual, si se realiza la definición de una variable en mayúsculas o minúsculas, esto hará referencia al mismo identificador de memoria, en otras palabras y dicho de forma técnica es un lenguaje #[b #[i case-sensitive]]. También es importante recordar que se debe hacer uso de un sistema de caracteres #[b #[i Unicode]] por lo que no es correcto utilizar caracteres especiales para definir identificaciones de memoria.
         p.mb-0 Entre otras de las características básicas de JavaScript, es que al finalizar una línea de código o una sentencia no es necesario poner al final un ‘;’ pero en las reglas definidas por el lenguaje se sugiere que se agregue como una buena práctica.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img6.png', style="width: 380px" ,alt='').m-auto
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
-      p.mb-0 #[b Figura 7].  Ingreso de datos por ventanas emergentes
+      p.mb-0 #[b Figura 8]. Consideraciones básicas de JavaScript
     .row.mb-5
       .col-12.bg-c2
         .p-4
@@ -242,7 +241,7 @@
                   |11   &lt;/body&gt;
                   |12 &lt;/html&gt;
             .col-lg-6(data-aos="fade-left")
-              p.mb-0 En la figura, se puede observar que en la línea 7 y 8, al definir el identificador #[b primerNombre] y #[b primernombre], respectivamente, hacer referencia al mismo espacio en memoria, por lo cual, al ser un lenguaje con case-sensitive, inicialmente el identificador tendrá el valor de ‘Juan’ y luego será remplazado por ‘Alex’; ahora en la línea 9 se puede observar que la variable definida como #[b cantidadNiños], es incorrecta dado que utiliza un carácter especial perteneciente al lenguaje español que es la ‘ñ’, esta variable deberá ser renombrada de otra forma y por último se puede observar que las líneas 7, 8 y 9, que se finaliza con ‘;’ recordando que no es una norma del lenguaje, pero es una recomendación de buena práctica.
+              p.mb-0 En la figura 8, se puede observar que en la línea 7 y 8, al definir el identificador #[b #[i primerNombre]] y #[b #[i primernombre]], respectivamente, hacer referencia al mismo espacio en memoria, por lo cual, al ser un lenguaje con case-sensitive, inicialmente el identificador tendrá el valor de ‘Juan’ y luego será remplazado por ‘Alex’; ahora en la línea 9 se puede observar que la variable definida como #[b #[i cantidadNiños]], es incorrecta dado que utiliza un carácter especial perteneciente al lenguaje español que es la ‘ñ’, esta variable deberá ser renombrada de otra forma y por último se puede observar que las líneas 7, 8 y 9, que se finaliza con ‘;’ recordando que no es una norma del lenguaje, pero es una recomendación de buena práctica.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -251,7 +250,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Comentarios
-    p.mb-5(data-aos="fade-right") Un comentario es un bloque de código no ejecutable, destinada para dejar anotaciones útiles para para el programador, que por lo general es usado para documentar variables, operaciones, funciones y se pueden aplicar en la mayoría de los elementos del programa. La sintaxis de los bloques de comentarios en JavaScript es igual que muchos lenguajes de programación.
+    p.mb-5(data-aos="fade-right") Un comentario es un bloque de código no ejecutable, destinada para dejar anotaciones útiles para el programador, que por lo general es usado para documentar variables, operaciones, funciones y se pueden aplicar en la mayoría de los elementos del programa. La sintaxis de los bloques de comentarios en JavaScript es igual que muchos lenguajes de programación.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 9]. Comentarios en JavaScript
     .row.mb-5
@@ -334,7 +333,7 @@
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
             h3.mb-0 Operadores de comparación
-    p.mb-5(data-aos="fade-right") Son aquellos que realizan una evaluación entre los operandos y devuelven un valor lógico, es decir un valor de verdadero o falso, los operandos pueden ser números, cadenas, booleanos, caracteres; dado el caso que los operandos no sean del mismo tipo, el intérprete de JavaScript intentará realizar una conversión implícita para hacer la evaluación, ver figura 11.
+    p.mb-5(data-aos="fade-right") Son aquellos que realizan una evaluación entre los operandos y devuelven un valor lógico, es decir, un valor de verdadero o falso, los operandos pueden ser números, cadenas, booleanos, caracteres; dado el caso que los operandos no sean del mismo tipo, el intérprete de JavaScript intentará realizar una conversión implícita para hacer la evaluación, ver figura 11.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 11]. Operador de comparación (==)
     .row.mb-5
@@ -349,11 +348,10 @@
                   | var result = var1 == var2;
     p.mb-5(data-aos="fade-right") En la figura 11 se puede observar la creación de dos identificadores de memoria var1 y var2, los cuales tienen una asignación de valor respectivamente, posteriormente se crea un identificador denominado result, este almacena el valor de comparar si var1 es igual a var2, el cual es falso; por lo tanto, el valor de result es el valor de ‘false’, se puede observar así:
     .row.mb-5
-      .col-lg-9(data-aos="fade-right")
-        TabsA.color-acento-contenido.mb-5
+      .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
+        TabsA.color-acento-contenido
           .tarjeta.color-acento-botones.p-4(titulo="Igual (==)")
             h4.mb-4 Operador #[span.txt-c3 Igual (==)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si los operandos tienen el mismo valor.
             p #[b Uso que devuelven true]
             .row
@@ -370,7 +368,6 @@
                   p.text-center.mb-0 #[b.txt-c4 6 == '6']
           .tarjeta.color-acento-botones.p-4(titulo="Diferente, desigual (!=)")
             h4.mb-4 Operador #[span.txt-c3 Diferente, desigual (!=)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si los operandos no presentan el mismo valor.
             p #[b Uso que devuelven true]
             .row
@@ -383,7 +380,6 @@
                   p.text-center.mb-0 #[b.txt-c4 var2 != "2"]
           .tarjeta.color-acento-botones.p-4(titulo="Estrictamente igual<br>(===)")
             h4.mb-4 Operador #[span.txt-c3 Estrictamente igual (===)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si los operandos son iguales y adicionalmente son del mismo tipo.
             p #[b Uso que devuelven true]
             .row
@@ -392,7 +388,6 @@
                   p.text-center.mb-0 #[b.txt-c4 1 === var1]
           .tarjeta.color-acento-botones.p-4(titulo="Desigualdad estricta<br>(!==)")
             h4.mb-4 Operador #[span.txt-c3 Desigualdad estricta (!==)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si los operandos son del mismo tipo pero no presentan el mismo valor, o si son de diferente tipo.
             p #[b Uso que devuelven true]
             .row
@@ -405,7 +400,6 @@
                   p.text-center.mb-0 #[b.txt-c4 5 !== '5']
           .tarjeta.color-acento-botones.p-4(titulo="Mayor que (>)")
             h4.mb-4 Operador #[span.txt-c3 Mayor que (>)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si el operando izquierdo presenta un valor mayor que el operando derecho.
             p #[b Uso que devuelven true]
             .row
@@ -418,7 +412,6 @@
                   p.text-center.mb-0 #[b.txt-c4 "13" > 4]
           .tarjeta.color-acento-botones.p-4(titulo="Mayor o igual que (>=)")
             h4.mb-4 Operador #[span.txt-c3 Mayor o igual que (>=)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si el operando izquierdo presenta un valor mayor o igual que el operando derecho.
             p #[b Uso que devuelven true]
             .row
@@ -431,7 +424,6 @@
                   p.text-center.mb-0 #[b.txt-c4 var1 >= 6]
           .tarjeta.color-acento-botones.p-4(titulo="Menor que (<)")
             h4.mb-4 Operador #[span.txt-c3 Menor que (<)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si el operando izquierdo presenta un valor menor que el operando derecho.
             p #[b Uso que devuelven true]
             .row
@@ -444,7 +436,6 @@
                   p.text-center.mb-0 #[b.txt-c4 "6" < 20]
           .tarjeta.color-acento-botones.p-4(titulo="Menor o igual (<=)")
             h4.mb-4 Operador #[span.txt-c3 Menor o igual (<=)]
-            p.mb-0 #[b Descripción] 
             p Retorna true si el operando izquierdo presenta un valor menor o igual que el operando derecho.
             p #[b Uso que devuelven true]
             .row
@@ -455,12 +446,11 @@
               .col-5.bg-c8
                 .p-1
                   p.text-center.mb-0 #[b.txt-c4 var2 <= 15]
-            p.mb-0 #[b Nota: (=>) no es un operador, sino la notación para Funciones flecha.]
+            p.mb-0 #[b Nota: (=>) no es un operador, sino la notación para funciones flecha.]
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img10.svg', style="width: 320px" ,alt='').m-auto
-    p(data-aos="fade-right") Anteriormente se pudo observar los diferentes tipos de operadores de comparación, es importante recordar que estos ayudan a evaluar dos operandos, retornando con ello un valor booleano de verdadero o
-    p.mb-5(data-aos="fade-right") falso, esto es útil al construir una sentencia relacional como las que son usadas en los condicionales o algunos de los ciclos.
+    p.mb-5(data-aos="fade-right") Anteriormente se pudo observar los diferentes tipos de operadores de comparación, es importante recordar que estos ayudan a evaluar dos operandos, retornando con ello un valor booleano de verdadero o falso, esto es útil al construir una sentencia relacional como las que son usadas en los condicionales o algunos de los ciclos.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -571,7 +561,7 @@
                 | var n1 = !true;      // t devuelve false
                 | var n2 = !false;     // f devuelve true
                 | var n3 = !'Cat';     // t devuelve false
-    p.mb-5(data-aos="fade-right") Para completar la información anterior revisar en detalle los datos que se presentan entre operador, uso y la descripción de cada uno de los que se relacionan.
+    p.mb-5(data-aos="fade-right") Para completar la información anterior, revisar en detalle los datos que se presentan entre operador, uso y la descripción de cada uno de los que se relacionan.
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-up")
       table
         thead
@@ -605,7 +595,7 @@
         figure
           img(src='@/assets/curso/tema1/img11.svg', style="width: 80px" ,alt='').m-auto
       .col
-        p JavaScript, es un lenguaje que está construido en un paradigma basado en objetos, recordando que un objeto es una estructura que permite la colección de propiedades, atributos, características o datos, estos a su vez tienen asociado un valor es decir una información relacionada a lo que representa.
+        p JavaScript, es un lenguaje que está construido en un paradigma basado en objetos, recordando que un objeto es una estructura que permite la colección de propiedades, atributos, características o datos, estos a su vez tienen asociado un valor, es decir, una información relacionada con lo que representa.
         p.mb-0 Tener en cuenta el siguiente ejemplo:
     .row.mb-5
       .col-12.bg-c11(data-aos="fade-right")
