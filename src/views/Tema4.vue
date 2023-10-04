@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Características y bibliotecas
-    p(data-aos="fade-right") Como se ha mencionado a lo largo del desarrollo de este componente, el desarrollo #[i web] está compuesto de diferentes tecnologías y componentes, aunque principalmente se debe destacar la tecnología que permite interactuar (#[i frontend]) y lo que permite que todo este centralizado (#[i backend]).
+    p(data-aos="fade-right") Como se ha mencionado a lo largo del desarrollo de este componente, el desarrollo #[i web] está compuesto de diferentes tecnologías y componentes, aunque principalmente se debe destacar la tecnología que permite interactuar (#[i front-end]) y lo que permite que todo este centralizado (#[i back-end]).
     p(data-aos="fade-left") Cuando se habla de aplicación del lado cliente no solo se habla de la interfaz gráfica de los sitios o aplicaciones #[i web], si no por el contrario, también de las aplicaciones de escritorio, aplicaciones móviles, aplicaciones de Smart tvs, entre otros elementos. Es por medio de estas aplicaciones que es posible interactuar, enviar comandos, indicar acciones, visualizar información, registrar información entre otros, es decir, es la capa más externa, orientada hacia el usuario y es aquí donde se puede evidenciar la experiencia de usuario.
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -21,7 +21,7 @@
         .p-5
           .row.align-items-center
             .col-lg-8.mb-4.mb-lg-0
-              p.mb-0 Específicamente en el desarrollo web, el desarrollo #[i frontend] solo tiene una serie de tecnologías, las cuales son html, css y javascript, estas son las que son interpretadas y renderizadas por los motores de los navegadores. El html cumple la función estructural, por medio de su lista de etiquetas, permite establecer un documento electrónico; el css cumple la función relacionada al aspecto, permite ordenar, dar forma, dar color, tamaño, entre otras características, es por decirlo así la obra blanca de un sitio web; mientras que JavaScript otorga la capa funcional y lógica, todo lo relacionado al control del documento, la algoritmia y funcionalidad es gracias al lenguaje de programación. Se debe recordar que cada uno de esos documentos de forma independiente en el ámbito #[i front] no aporta valor al desarrollo #[i front], es decir, solo el html no establece un sitio web, solo el css no establece un sitio web y solo el JavaScript no establece un sitio web, por lo menos deben existir dos de los componentes para poder crear algo y una de las tecnologías fundamentales en este caso es el html, entonces se puede decir que para crear algo, debe obligatoriamente existir la estructura html, pero podría faltar el css o el js.
+              p.mb-0 Específicamente en el desarrollo web, el desarrollo #[i front-end] solo tiene una serie de tecnologías, las cuales son html, css y javascript, estas son las que son interpretadas y renderizadas por los motores de los navegadores. El html cumple la función estructural, por medio de su lista de etiquetas, permite establecer un documento electrónico; el css cumple la función relacionada al aspecto, permite ordenar, dar forma, dar color, tamaño, entre otras características, es por decirlo así la obra blanca de un sitio web; mientras que JavaScript otorga la capa funcional y lógica, todo lo relacionado al control del documento, la algoritmia y funcionalidad es gracias al lenguaje de programación. Se debe recordar que cada uno de esos documentos de forma independiente en el ámbito #[i front] no aporta valor al desarrollo #[i front], es decir, solo el html no establece un sitio web, solo el css no establece un sitio web y solo el JavaScript no establece un sitio web, por lo menos deben existir dos de los componentes para poder crear algo y una de las tecnologías fundamentales en este caso es el html, entonces se puede decir que para crear algo, debe obligatoriamente existir la estructura html, pero podría faltar el css o el js.
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema4/img1.svg', style="width: 380px" ,alt='').m-auto
@@ -48,7 +48,7 @@
             figure
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 Frameworks front-end
+            h3.mb-0 #[i Frameworks front-end]
     .row.bg-c1.mb-5(data-aos="fade-left")
       .col-12
         .px-5.pt-5
@@ -56,7 +56,7 @@
           figure(data-aos="fade-left")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/Z-YzV72qq4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p(data-aos="fade-right") Los #[i frameworks] son una lista de librerías, archivos, funcionalidades, complementos, entre otros elementos que permiten el diseño y desarrollo de sitios #[i web] rápidamente. Los #[i frameworks] implementan funcionalidades que son genéricas en el mundo del desarrollo de #[i software], en el #[i frontend], existen para la architectura funcional como los de JavaScript y para temas visuales tales como el de CSS.
+    p(data-aos="fade-right") Los #[i frameworks] son una lista de librerías, archivos, funcionalidades, complementos, entre otros elementos que permiten el diseño y desarrollo de sitios #[i web] rápidamente. Los #[i frameworks] implementan funcionalidades que son genéricas en el mundo del desarrollo de #[i software], en el #[i front-end], existen para la architectura funcional como los de JavaScript y para temas visuales tales como el de CSS.
     p.mb-5(data-aos="fade-right") Esta es una lista de #[i frameworks] del lado cliente:
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -153,7 +153,7 @@
             figure
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 Introducción al front-end
+            h3.mb-0 Introducción al #[i front-end]
     p(data-aos="fade-right") El #[i front-end] hace parte del desarrollo web, en el cual se construye todos los componentes que están de cara al usuario, es decir todo lo visual y relacionado a la interacción de usuario, en otras palabras, lo que también se conoce como el diseño web. Esto tiene en cuenta el contenido, la diagramación, colores, tipografía, elementos gráficos de control, tamaños de letra, color de letra, flujos, navegación, experiencia, usabilidad, entre otros.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -169,7 +169,7 @@
             figure
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 Html5, css3
+            h3.mb-0 HTML5, CSS3
     .row.mb-5(data-aos="fade-left")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -190,8 +190,8 @@
             figure
               img(src='@/assets/curso/tema1/img7.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 TypeScript
-    p.mb-5(data-aos="fade-right") #[i TypeScript] es un super conjunto de JavaScript, el cual compila en JavaScript, es decir su código fuente se escribe en Ts y luego se convierte en Js para ser interpretado. Esto se realiza automáticamente dependiente de la herramienta de pre-compilación ya sea en el frontend o el backend. Se debe recordar que el navegador web solo puede interpretar archivos JavaScript (ver figura 24).
+            h3.mb-0 #[i TypeScript]
+    p.mb-5(data-aos="fade-right") #[i TypeScript] es un super conjunto de JavaScript, el cual compila en JavaScript, es decir su código fuente se escribe en Ts y luego se convierte en Js para ser interpretado. Esto se realiza automáticamente dependiente de la herramienta de pre-compilación ya sea en el front-end o el back-end. Se debe recordar que el navegador web solo puede interpretar archivos JavaScript (ver figura 24).
     .row.mb-5
       .col-12.bg-c20.p-4.p-lg-0
         .row.align-items-center

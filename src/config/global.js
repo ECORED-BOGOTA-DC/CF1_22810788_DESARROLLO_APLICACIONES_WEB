@@ -108,17 +108,17 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Frameworks back-end',
+            titulo: '<i>Frameworks back-end</i>',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Introducción al back-end',
+            titulo: 'Introducción al <i>back-end</i>',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'NodeJs',
+            titulo: 'Node.js',
             hash: 't_3_3',
           },
           {

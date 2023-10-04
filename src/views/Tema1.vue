@@ -12,9 +12,10 @@
           .row.mb-5(data-aos="fade-right")
             .col-12
               p.mb-0 Para reconocer cuáles son los fundamentos de JavaScript, se parte de lo siguiente.
-          figure(data-aos="fade-left")
+          figure.mb-5(data-aos="fade-left")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/dFhY6TOMRhY?si=p9wTqzSSTuXycwe_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          p.mb-0 Así mismo, observa los siguientes elementos que complementan lo abordado para dar inicio del componente formativo.
     Separador
     #t_1_1
     .titulo-segundo.color-acento-botones

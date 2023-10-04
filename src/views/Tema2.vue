@@ -335,7 +335,7 @@
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             p #[b Condicional doble o compuesta, if – else if – else]
-            p Podemos deducir que la estructura #[b #[i else]] llega a convertirse en el bloque por defecto, llegado el caso que la estructura condicional no tenga un condicional que se llegase a ejecutar como afirmativo, es decir, si no hay una condición que se cumpla. Esta estructura permite hacer la evaluación de infinida de condiciones, sin importar la cantidad, es recomendado no presentar ambigüedades, también recordar que la ejecución de las condiciones es secuencial, si se llegase a ejecutar por decirlo así la primera condición, el flujo del algoritmo seguiría al finalizar toda la estructura condicional, es decir al finalizar el #[b #[i else]] sin llegar a ejecutar su lógica o bloque de código. 
+            p Podemos deducir que la estructura #[b #[i else]] llega a convertirse en el bloque por defecto, llegado el caso que la estructura condicional no tenga un condicional que se llegase a ejecutar como afirmativo, es decir, si no hay una condición que se cumpla. Esta estructura permite hacer la evaluación de infinidad de condiciones, sin importar la cantidad, es recomendado no presentar ambigüedades, también recordar que la ejecución de las condiciones es secuencial, si se llegase a ejecutar por decirlo así la primera condición, el flujo del algoritmo seguiría al finalizar toda la estructura condicional, es decir al finalizar el #[b #[i else]] sin llegar a ejecutar su lógica o bloque de código. 
           .col-lg-6
             figure
               img(src='@/assets/curso/tema2/img4.png', style="width: 550px" ,alt='').m-auto
