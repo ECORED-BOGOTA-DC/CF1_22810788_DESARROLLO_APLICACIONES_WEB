@@ -347,24 +347,30 @@ export default {
         },
         {
           nombre: 'Leydy Jhuliana Jaramillo Mejía',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseño instruccional',
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor pedagógico',
+          cargo: 'Asesoría pedagógico',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesor pedagógico',
+          cargo: 'Asesoría pedagógico',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrección de estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -373,13 +379,13 @@ export default {
       autores: [
         {
           nombre: 'Yuly Rey',
-          cargo: 'Diseñador web',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Jairo Urueta Alvarez',
-          cargo: 'Desarrollador fullstack',
+          cargo: 'Desarrollo fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -420,7 +426,8 @@ export default {
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación en plataforma LMS',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

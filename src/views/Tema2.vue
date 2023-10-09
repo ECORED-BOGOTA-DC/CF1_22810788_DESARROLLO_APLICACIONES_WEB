@@ -664,9 +664,30 @@
           p.text-center #[b Bloque setTimeout]
           p Es una función que está determinada para pausar o retrasar la ejecución de una funcionalidad dependiendo de la cantidad de tiempo definida, esta función recibe 2 parámetros, uno de ellos es el tiempo de ejecución y debe estar expresado en milisegundos, el otro es una función, donde esta especificada las sentencias, ver Función setTimeout.
           p Como se puede observar, tomará 3 segundos para que se ejecute la función llamada #[i funcionConRetraso], y esto pasará solo una vez.
-          .row
-            .col-auto.bg-c15.px-3.py-2
-              p.mb-0 #[b i SetTimeout]
+          a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
+                span Bloque setTimeout
+                .indicador--click(v-if="mostrarIndicador")
+          ModalA(:abrir-modal.sync="modal6")
+            .row
+              .col-auto
+                .row
+                  .col-auto.bg-c15.py-2.px-3.mb-4
+                    p.mb-0 #[b Bloque setTimeout]
+                  pre
+                    code.language-html
+                      | &lt;! DOCTYPE html&gt;
+                      | &lt;html&gt;
+                      |   &lt;head&gt;
+                      |   &lt;/head&gt;
+                      |   &lt;body&gt;
+                      |     &lt;script type="text/JavaScript"&gt;
+                      |       function funcionConRetraso(){
+                      |         alert("Han pasado 3 segundos.");
+                      |       }
+                      |       setTimeout(funcionConRetraso, 3000);
+                      |     &lt;/script&gt;
+                      |   &lt;/body&gt;
+                      | &lt;/html&gt;
       .col-md-10.col-lg.bg-c16.m-2
         .p-4
           figure.mb-4
@@ -674,9 +695,30 @@
           p.text-center #[b Bloque setInterval]
           p Es una función que está determinada para repetir una funcionalidad en un rango de tiempo definida, esta función recibe 2 parámetros, uno de ellos es el tiempo de ejecución y debe estar expresado en milisegundos, el otro es una función, donde esta especificada las sentencias, ver figura Función setInterval.
           p Como se puede observar, cada 3 segundos se ejecutará la función llamada #[i funcionQueSeRepite], y esto pasará x cantidad de veces hasta que no se detenga el proceso del intervalo.
-          .row
-            .col-auto.bg-c15.px-3.py-2
-              p.mb-0 #[b SetInterval]
+          a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
+                span Bloque setInterval
+                .indicador--click(v-if="mostrarIndicador")
+          ModalA(:abrir-modal.sync="modal7")
+            .row
+              .col-auto
+                .row
+                  .col-auto.bg-c15.py-2.px-3.mb-4
+                    p.mb-0 #[b Bloque setInterval]
+                  pre
+                    code.language-html
+                      | &lt;! DOCTYPE html&gt;
+                      | &lt;html&gt;
+                      |   &lt;head&gt;
+                      |   &lt;/head&gt;
+                      |   &lt;body&gt;
+                      |     &lt;script type="text/JavaScript"&gt;
+                      |       function funcionQueSeRepite(){
+                      |         alert("Han pasado 3 segundos.");
+                      |       }
+                      |       setInterval(funcionQueSeRepite, 3000);
+                      |     &lt;/script&gt;
+                      |   &lt;/body&gt;
+                      | &lt;/html&gt;
     .row(data-aos="fade-left")
       .col-md-auto.mb-4.mb-md-0
         figure
@@ -1029,6 +1071,8 @@ export default {
     modal3: false,
     modal4: false,
     modal5: false,
+    modal6: false,
+    modal7: false,
   }),
   mounted() {
     this.$nextTick(() => {
