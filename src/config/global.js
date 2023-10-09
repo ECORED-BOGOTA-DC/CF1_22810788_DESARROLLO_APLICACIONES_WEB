@@ -352,7 +352,7 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesoría pedagógico',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
