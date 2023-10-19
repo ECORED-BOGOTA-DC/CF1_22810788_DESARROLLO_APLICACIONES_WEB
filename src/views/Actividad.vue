@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 JavaScript y su funcionamiento
-        p.mb-4 Reconocer los conceptos y características importantes de JavaScript, para implementar adecuadamente sus funcionalidades en el software o aplicación a desarrollar.
+        p.mb-4 Reconocer los conceptos y características importantes de JavaScript, para implementar adecuadamente sus funcionalidades en el #[i software] o aplicación a desarrollar.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

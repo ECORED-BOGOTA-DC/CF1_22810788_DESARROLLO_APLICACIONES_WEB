@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Poo y estructuras de control
+      h1 POO y estructuras de control
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p La Poo (programación orientada a objetos) es un paradigma de programación, que pretende solucionar problemas informáticos, realizando la abstracción de las funcionalidades en clases y objetos. Es importante recordar que las clases son una estructura que establece las propiedades y comportamientos, por medio de atributos y métodos, mientras que los objetos son una instancia de lo definido en la clase, dicho de otra manera, la clase es una plantilla y el objeto es una referencia concreta tomada de la plantilla.
+        p La POO (Programación Orientada a Objetos) es un paradigma de programación, que pretende solucionar problemas informáticos, realizando la abstracción de las funcionalidades en clases y objetos. Es importante recordar que las clases son una estructura que establece las propiedades y comportamientos, por medio de atributos y métodos, mientras que los objetos son una instancia de lo definido en la clase, dicho de otra manera, la clase es una plantilla y el objeto es una referencia concreta tomada de la plantilla.
         p.mb-0 ¿Cómo se realiza? Observar a continuación:
       .col-lg-4(data-aos="fade-left")
         figure
@@ -563,7 +563,7 @@
           .row(titulo="Clase")
             .col-12
               p La estructura definida en la anterior figura denota el modo estricto, el cual permite mejora el rendimiento al momento de renderizarse, contiene un constructor, dos atributos, alto y ancho, y dos métodos. 
-              p Una particularidad de Poo y de las clases es la herencia, y con este tipo de estructuras es posible que, desde JavaScript, se pueda definir clases que hereden la abstracción de clases padres, de la misma manera podemos observar otra característica de este paradigma y es la sobrecarga de herencia. 
+              p Una particularidad de POO y de las clases es la herencia, y con este tipo de estructuras es posible que, desde JavaScript, se pueda definir clases que hereden la abstracción de clases padres, de la misma manera podemos observar otra característica de este paradigma y es la sobrecarga de herencia. 
               p Para obtener una herencia, se hace uso de la palabra reservada #[i extends], tal como #[i A extends B], denotando de esta manera que la clase A hereda o es una clase hija de la clase B.
               a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                 span Modo estricto de clase en JavaScript
@@ -761,7 +761,7 @@
         .row.mb-3
           .col-12
             img(src='@/assets/curso/tema2/img14.png' alt='AvatarTop')
-        p El uso de todas estas cualidades hace que un proyecto de software sea ordenado y escalable y a su vez robusto.
+        p El uso de todas estas cualidades hace que un proyecto de #[i software] sea ordenado y escalable y a su vez robusto.
     p.mb-0(data-aos="fade-down") Expuesto todo lo anterior, se puede llegar a concluir que POO es un concepto más avanzado para la construcción de aplicaciones, y eso es totalmente correcto, el tema es que muchas de las soluciones en JavaScript son más sencillas que al final emplear siempre POO que complicarían la misma interactividad y el desarrollo de plantillas o páginas webs sencillas. Ahora, si la misión es desarrollar una aplicación web, será necesario utilizar POO, todo dependerá del enfoque que se requiera para el proyecto.
     Separador
     #t_2_4
@@ -1023,7 +1023,7 @@
     #t_2_7
     .titulo-segundo.color-acento-botones
       h2 2.7. Funciones y declaración de funciones
-    p(data-aos="fade-right") En la programación de software es común tener fragmentos de códigos, que permitan dividir o segregar la lógica. Estos elementos de códigos tener una particularidad funcional o procedimental, de ahí que se nombren procedimientos o funciones. En JavaScript los procedimientos y las funciones, presentan pocas diferencias, dado que es un lenguaje de programación no tipado.
+    p(data-aos="fade-right") En la programación de #[i software] es común tener fragmentos de códigos, que permitan dividir o segregar la lógica. Estos elementos de códigos tener una particularidad funcional o procedimental, de ahí que se nombren procedimientos o funciones. En JavaScript los procedimientos y las funciones, presentan pocas diferencias, dado que es un lenguaje de programación no tipado.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Una función es un conjunto de instrucciones que resuelven una parte del problema y pueden ser llamados desde diferentes partes del programa, es decir, que en varias partes del programa se requiere realizar la sumatoria de 5 números, no sería ideal que por cada vez que se requiera hacer ese proceso se duplique el código de la suma, si no que por el contrario, se define una función que reciba como argumento los valores que se desean operar y devuelve el valor, de esta manera si en la lógica de negocio hay 10 partes en las que se requiere hacer la suma de los 5 números, no será necesario escribir 10 veces el código, si no que se invocará o llamará 5 veces el bloque de código definido como función, esto conlleva una serie de beneficios, tales como dividir los problemas, reutilizar el código, segregar las operaciones, desacoplar las funcionalidades, entre otros, ver figura 22.

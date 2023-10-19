@@ -56,7 +56,7 @@
           figure(data-aos="fade-left")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/Z-YzV72qq4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p(data-aos="fade-right") Los #[i frameworks] son una lista de librerías, archivos, funcionalidades, complementos, entre otros elementos que permiten el diseño y desarrollo de sitios #[i web] rápidamente. Los #[i frameworks] implementan funcionalidades que son genéricas en el mundo del desarrollo de #[i software], en el #[i front-end], existen para la architectura funcional como los de JavaScript y para temas visuales tales como el de CSS.
+    p(data-aos="fade-right") Los #[i frameworks] son una lista de librerías, archivos, funcionalidades, complementos, entre otros elementos que permiten el diseño y desarrollo de sitios #[i web] rápidamente. Los #[i frameworks] implementan funcionalidades que son genéricas en el mundo del desarrollo de #[i software], en el #[i front-end], existen para la arquitectura funcional como los de JavaScript y para temas visuales tales como el de CSS.
     p.mb-5(data-aos="fade-right") Esta es una lista de #[i frameworks] del lado cliente:
     .row.justify-content-center.mb-5
       .col-lg-8

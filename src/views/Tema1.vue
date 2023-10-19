@@ -159,7 +159,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               p #[b String]
-              p Es el tipo de dato que abarca las a cadenas de texto o cadena de caracteres. Se pueden encapsular en comillas simples o sencillas, no hay distinción en el lenguaje, dada la naturaleza del lenguaje al no ser tipado.
+              p Es el tipo de dato que abarca las cadenas de texto o cadena de caracteres. Se pueden encapsular en comillas simples o sencillas, no hay distinción en el lenguaje, dada la naturaleza del lenguaje al no ser tipado.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.svg')})`}")
       .col-10.col-sm-6.col-md-5.col-lg-4.col-xl-3.col-xxl.mb-4.mb-xxl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
@@ -192,7 +192,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               p #[b Object]
-              p Es el tipo de dato en el que cualquier cosa se puede almacenar, básicamente en JavaScript, todo es un objecto.
+              p Es el tipo de dato en el que cualquier cosa se puede almacenar, básicamente en JavaScript, todo es un object.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img5.svg')})`}")
     p(data-aos="fade-right") Las variables son requeridas dado que con estas se pueden hacer los procesos de programación dinámicos, permitiendo permutar la información a la medida que se ejecutan las funcionalidades implementadas.
     Separador
@@ -204,7 +204,7 @@
         figure
           img(src='@/assets/curso/tema1/img6.svg', style="width: 80px" ,alt='').m-auto
       .col
-        p.mb-0 En el desarrollo de software y en el aprendizaje de un lenguaje de programación hay diferentes aspectos a tener en cuenta, entre los cuales está la gramática y sintaxis, para obtener el máximo rendimiento al momento de realizar desarrollos e implementaciones.
+        p.mb-0 En el desarrollo de #[i software] y en el aprendizaje de un lenguaje de programación hay diferentes aspectos a tener en cuenta, entre los cuales está la gramática y sintaxis, para obtener el máximo rendimiento al momento de realizar desarrollos e implementaciones.
     .row.mb-4(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -575,11 +575,11 @@
             td.text-center expresion1 && expresion2
             td Tener en cuenta que cada expresión debe retornar un valor lógico true/false. Dado el caso que las dos expresiones sean true, el operador && devolverá true, en caso contrario siempre retornara false.
           tr
-            th OR lógico (||)
+            th OR Lógico (||)
             td.text-center expresion1 || expresion2
             td Tener en cuenta que cada expresión debe retornar un valor lógico true/false. Dado el caso que una de las dos expresiones sean true, el operador || devolverá true, en caso contrario siempre retornara false.
           tr
-            th NOT lógico (!)
+            th NOT Lógico (!)
             td.text-center ! expresion
             td Tener en cuenta que la expresión debe retornar un valor lógico true/false. Dado el caso que la expresión sea true, al negarse retornara el valor contrario, es decir, false; y en caso contrario ocurrirá lo mismo.
     .row.mb-4(data-aos="fade-down")

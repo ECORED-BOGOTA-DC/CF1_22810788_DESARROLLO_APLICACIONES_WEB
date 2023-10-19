@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Fundamentos de JavaScript',
     descripcionCurso:
-      'En este componente se abordarán los conceptos fundamentales y básicos del lenguaje de programación JavaScript en conjunto con tecnologías como HTML5, Css3 y frameworks para el desarrollo de aplicaciones del lado del cliente y servidor.',
+      'En este componente se abordarán los conceptos fundamentales y básicos del lenguaje de programación JavaScript en conjunto con tecnologías como HTML5, CSS3 y <i>frameworks</i> para el desarrollo de aplicaciones del lado del cliente y servidor.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -60,7 +60,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Poo y estructuras de control',
+        titulo: 'POO y estructuras de control',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -201,7 +201,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=BgtB31gXkoA',
     },
     {
-      tema: 'Poo y estructuras de control',
+      tema: 'POO y estructuras de control',
       referencia:
         'Ortega, D. J. O., & Pérez, M. A. B. (2019). <i>Bootstrap y Laravel, herramientas para el desarrollo de aplicaciones web</i>.',
       tipo: 'PDF',
@@ -210,29 +210,29 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Backend',
+      termino: '<i>Backend</i>',
       significado:
-        'desarrollo que se realiza del lado del servidor, aplicaciones que centralizan principalmente la lógica del negocio, las bases de datos y los recursos de un sistema para que sean consumidos por una aplicación tipo cliente, o un frontend.',
+        'desarrollo que se realiza del lado del servidor, aplicaciones que centralizan principalmente la lógica del negocio, las bases de datos y los recursos de un sistema para que sean consumidos por una aplicación tipo cliente, o un <i>frontend</i>.',
     },
     {
-      termino: 'Framework',
+      termino: '<i>Framework</i>',
       significado:
         'librería o marco de trabajo que contiene, clases, funciones, configuraciones, paquetes y componentes, que son comunes en el desarrollo de funcionalidades.',
     },
     {
-      termino: 'Frontend',
+      termino: '<i>Frontend</i>',
       significado:
-        'desarrollo que se realiza del lado del cliente, aplicaciones web, aplicaciones de escritorio, aplicaciones móviles; estas se despliegan en la máquina del usuario. Esta es la capa o el nivel con lo que los usuarios interactúan. ',
+        'desarrollo que se realiza del lado del cliente, aplicaciones <i>web</i>, aplicaciones de escritorio, aplicaciones móviles; estas se despliegan en la máquina del usuario. Esta es la capa o el nivel con lo que los usuarios interactúan. ',
     },
     {
       termino: 'JavaScript',
       significado:
-        'lenguaje de programación tipo scripting que sirve para agregar funcionalidad a documentos web.',
+        'lenguaje de programación tipo <i>scripting</i> que sirve para agregar funcionalidad a documentos <i>web</i>.',
     },
     {
-      termino: 'Localhost',
+      termino: '<i>Localhost</i>',
       significado:
-        'en el contexto de las redes de computadoras, localhost es una computadora que ejecuta un programa. La computadora que se tiene al frente funciona también como un servidor virtual. Este modo es comúnmente utilizado para realizar pruebas en el desarrollo web.',
+        'en el contexto de las redes de computadoras, <i>localhost</i> es una computadora que ejecuta un programa. La computadora que se tiene al frente funciona también como un servidor virtual. Este modo es comúnmente utilizado para realizar pruebas en el desarrollo <i>web</i>.',
     },
     {
       termino: 'TypeScript',

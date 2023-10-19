@@ -70,7 +70,7 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img2.png', style="width: 380px" ,alt='').m-auto
-    p.mb-0(data-aos="fade-right") En el desarrollo #[i web], el #[i back-end], es la parte del sistema que se encarga de todos los procesos necesarios para que la aplicación #[i web] funcione de forma correcta. Estos procesos o funciones no son visibles, algunas de estas acciones que controla el #[i back-end] son la conexión con la base de datos o la comunicación con el servidor de y los procesos o algoritmos que debe realizar la aplicación. A continuación, se presenta como desarrollar un #[i back-end] sencillo que permita interactuar con la base de datos sin prestar muche énfasis en el desarrollo de algoritmos informáticos. Esto debido a que en los procos de pruebas es importante comprender como funcionan internamente las aplicaciones #[i web].
+    p.mb-0(data-aos="fade-right") En el desarrollo #[i web], el #[i back-end], es la parte del sistema que se encarga de todos los procesos necesarios para que la aplicación #[i web] funcione de forma correcta. Estos procesos o funciones no son visibles, algunas de estas acciones que controla el #[i back-end] son la conexión con la base de datos o la comunicación con el servidor de y los procesos o algoritmos que debe realizar la aplicación. A continuación, se presenta como desarrollar un #[i back-end] sencillo que permita interactuar con la base de datos sin prestar mucho énfasis en el desarrollo de algoritmos informáticos. Esto debido a que en los procos de pruebas es importante comprender como funcionan internamente las aplicaciones #[i web].
     Separador
     #t_3_3
     .titulo-segundo.color-acento-botones
